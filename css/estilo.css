@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(250, 140, 66);
+}
+
+main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 60px;
+    padding: 130px;
+}
