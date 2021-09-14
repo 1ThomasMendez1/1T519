@@ -3,18 +3,21 @@
     background-color: rgb(250, 140, 66);
 }
 
-main {
+
+/* ACA COMIENZA EL INDEX */ 
+main section {
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 30px;
     text-decoration: underline;
+
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
     margin: 10px;
     padding-top: 60px;
-    width: 100%;
+    width: 100%ss
 }
+
 
 
 header {
@@ -34,8 +37,7 @@ header {
     font-size: 9px;
     padding-right: 10px;
     margin: 0 30px;
-    gap: 300px;
-
+    gap: 30px;
 }
 
 
@@ -46,3 +48,5 @@ header {
     padding-right: 40px;
     padding-top: 10px;
 }
+
+/* ACA TERMINA EL INDEX */ 
