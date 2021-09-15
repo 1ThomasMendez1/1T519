@@ -49,4 +49,28 @@ header {
     padding-top: 10px;
 }
 
+<<<<<<< Updated upstream
 /* ACA TERMINA EL INDEX */ 
+=======
+
+.favoritos {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+
+  
+}
+
+
+.listafavoritos {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+
+   
+}
+
+
+.Rapidos {
+  height: auto;
+}
+
+>>>>>>> Stashed changes
