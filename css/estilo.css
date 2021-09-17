@@ -49,28 +49,12 @@ header {
     padding-top: 10px;
 }
 
-<<<<<<< Updated upstream
 /* ACA TERMINA EL INDEX */ 
-=======
 
-.favoritos {
-    font-family: 'Noto Sans KR', sans-serif;
+.TituloDeGenerosDePeliculas {
+    font-size: 50px;
     text-align: center;
-
-  
+    text-decoration: underline;
+    
+    
 }
-
-
-.listafavoritos {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 18px;
-
-   
-}
-
-
-.Rapidos {
-  height: auto;
-}
-
->>>>>>> Stashed changes
