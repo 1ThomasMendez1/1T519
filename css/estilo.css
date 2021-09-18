@@ -14,46 +14,66 @@ footer {
 }
 /* Footer abajo de todo  */ 
 
-/* ACA COMIENZA EL INDEX {}  */ 
-
-
-
-.index section {
-    font-family: 'Noto Sans KR', sans-serif;
-
-
-    padding-top: 60px;
-    width: 100%
-}
-
-
+/* Footer estilo   */ 
 footer div {
     display: flex;
     justify-content: space-evenly;
     background-color: chocolate;
     font-family: 'Noto Sans KR', sans-serif;
+    margin-top: auto;
     font-size: 10px;
     margin-bottom: -30px;
     border-radius: 20px 20px 0 0;
-    margin-top: auto;
 }
-
 footer h1 {
     background: chocolate;
 }
+/* Footer estilo   */ 
+
+/* ACA COMIENZA LA PAGINA PRINCIPAL {}  */ 
+
+/* Header */ 
 
 .headerindex {
-    display: block;
-    height: auto;
-    justify-content: center;
     border: black solid;
+    padding-top: 10px;
 }
 
-.index input{
-    display: block;
-    margin: auto;  
+.headerindex .buscador {
+    display: flex;
+    justify-content: flex-end;
 }
 
+.headerindex input {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    background: goldenrod;
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+.headerindex label {
+    font-family: 'Noto Sans KR', sans-serif;    
+    background: goldenrod;
+    border-radius: 5px;
+}
+
+.headerindex button {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: green;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.menuh {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 9px;
+    margin: 0 30px;
+    gap: 30px;
+}
 
 .menuh a {
     font-family: 'Noto Sans KR', sans-serif;
@@ -62,31 +82,26 @@ footer h1 {
 }
 
 
-.indexlista  {
+.Logo {
     display: flex;
-    list-style: none;
-    justify-content: space-between;
-    text-align: center;
-    background: black;
-    padding-top: 10px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-}
-.indexlista li {
-    background: red;
-    padding: 10px;
-    border-radius: 2px;
+    justify-content: center;
 }
 
-.indexlista li h1{
-    background: red;
-    font-style: italic;
-    border-radius: 2px;
+.Logo img {
+    height: 120px;
 }
-.indexlista h2  {
-    font-size: 15px;
-    background: red;
-    border-radius: 2px;
+
+/* Header termina */ 
+
+.index section {
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 60px;
+    width: 100%
+}
+
+.index input{
+    display: block;
+    margin: auto;  
 }
 
 .index strong {
@@ -100,71 +115,105 @@ footer h1 {
     padding: 5px;
 }
 
-.menuh {
+
+.indexlista  {
     display: flex;
-    justify-content: flex-end;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 9px;
-    padding-right: 10px;
-    margin: 0 30px;
-    gap: 30px;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    background: black;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
 }
 
-.Logo {
+.indexlista li {
+    background: red;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.indexlista li h1{
+    background: red;
+    font-style: italic;
+    border-radius: 2px;
+}
+
+.indexlista h2  {
+    background: red;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+
+/* */
+/* ACA TERMINA LA PAGINA PRINCIPAL  {} */ 
+
+
+/* ACA COMIENZA LA PAGINA RESULTADO DE BUSQUEDA */
+.rb {
     display: flex;
     justify-content: center;
-    height: 120px;
-    padding-right: 40px;
-    padding-top: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: underline;
 }
 
-<<<<<<< HEAD
 
-.headerindex div {
+.busqueda  {
     display: flex;
-    justify-content: flex-end;
-    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.headerindex input {
+.busqueda h1 {
     font-family: 'Noto Sans KR', sans-serif;
-    border-radius: 5px;
-    max-width: 200px;
-    background: goldenrod;
-    font-weight: bold;
-}
-.headerindex label {
-    background: goldenrod;
-    border-radius: 5px;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-.headerindex button {
-    font-family: 'Noto Sans KR', sans-serif;
-    background: green;
-    border-radius: 5px;
-    font-weight: bold;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 30px;
+    width: 100%;
 }
 
 
+.busquedalista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    gap: 25px;
+}
+
+.busquedalista a {
+    width: fit-content;
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.726);
+    margin-right: 40px;
+}
+
+.busqueda p {
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: yellow;
+    display: none;
+}
+
+.imagenb {
+    background-color: black;
+    height: 400px;
+    width: 400px; 
+}
 
 
-/* */
-/* ACA TERMINA EL INDEX  {} */ 
+/* ACA TERMINA LA PAGINA RESULTADO DE BUSQUEDA */
 
-/* */
-/* ACA COMIENZA EL RESULTADO DE BUSQUEDA */
- .headerindex h1 {
-     font-family: 'Noto Sans KR', sans-serif;
- }
-/* ACA TERMINA EL RESULTADO DE BUSQUEDA */
-=======
-/* ACA TERMINA EL INDEX */ 
 
 .TituloDeGenerosDePeliculas {
     font-size: 50px;
     text-align: center;
     text-decoration: underline;
-    
-    
 }
->>>>>>> 278f0852dedd005a69933b2e031095eb81205a43
