@@ -1,32 +1,68 @@
 * {
     box-sizing: border-box;
-    background-color: rgb(250, 140, 66);
+    background-color: rgb(124, 122, 120);
 }
 
-
-/* ACA COMIENZA EL INDEX */ 
-main section {
-    font-family: 'Noto Sans KR', sans-serif;
-    text-decoration: underline;
-
+/* Footer abajo de todo  */ 
+body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 50px;
-    margin: 10px;
-    padding-top: 60px;
-    width: 100%ss
+    min-height: 100vh;
+}
+footer {
+    margin-top: auto;
+}
+/* Footer abajo de todo  */ 
+
+/* Footer estilo   */ 
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: chocolate;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: auto;
+    font-size: 10px;
+    margin-bottom: -30px;
+    border-radius: 20px 20px 0 0;
+}
+footer h1 {
+    background: chocolate;
+}
+/* Footer estilo   */ 
+
+/* ACA COMIENZA LA PAGINA PRINCIPAL {}  */ 
+
+/* Header */ 
+
+.headerindex {
+    border: black solid;
+    padding-top: 10px;
 }
 
+.headerindex .buscador {
+    display: flex;
+    justify-content: flex-end;
+}
 
+.headerindex input {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    background: goldenrod;
+    border-radius: 5px;
+    max-width: 200px;
+}
 
-header {
-    display: block;
-    height: auto;
-    justify-content: center;
-    border: black solid;
-    box-sizing: border-box;
-    overflow: hidden;
+.headerindex label {
+    font-family: 'Noto Sans KR', sans-serif;    
+    background: goldenrod;
+    border-radius: 5px;
+}
+
+.headerindex button {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: green;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 
@@ -35,21 +71,146 @@ header {
     justify-content: flex-end;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 9px;
-    padding-right: 10px;
     margin: 0 30px;
     gap: 30px;
+}
+
+.menuh a {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+    color: black;
 }
 
 
 .Logo {
     display: flex;
     justify-content: center;
-    height: 120px;
-    padding-right: 40px;
-    padding-top: 10px;
 }
 
-/* ACA TERMINA EL INDEX */ 
+.Logo img {
+    height: 120px;
+}
+
+/* Header termina */ 
+
+.index section {
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 60px;
+    width: 100%
+}
+
+.index input{
+    display: block;
+    margin: auto;  
+}
+
+.index strong {
+    background-color: coral;
+    text-decoration: underline;
+    font-size: 30px;
+    border-radius: 3px;
+}
+
+.index img{
+    padding: 5px;
+}
+
+
+.indexlista  {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    background: black;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.indexlista li {
+    background: red;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.indexlista li h1{
+    background: red;
+    font-style: italic;
+    border-radius: 2px;
+}
+
+.indexlista h2  {
+    background: red;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+
+/* */
+/* ACA TERMINA LA PAGINA PRINCIPAL  {} */ 
+
+
+/* ACA COMIENZA LA PAGINA RESULTADO DE BUSQUEDA */
+.rb {
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: underline;
+}
+
+
+.busqueda  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.busqueda h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+
+.busquedalista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    gap: 25px;
+}
+
+.busquedalista a {
+    width: fit-content;
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.726);
+    margin-right: 40px;
+}
+
+.busqueda p {
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: yellow;
+    display: none;
+}
+
+.imagenb {
+    background-color: black;
+    height: 400px;
+    width: 400px; 
+}
+
+
+/* ACA TERMINA LA PAGINA RESULTADO DE BUSQUEDA */
+
 
 .TituloDeGenerosDePeliculas {
     font-size: 30px;
