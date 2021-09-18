@@ -58,3 +58,56 @@ header {
     
     
 }
+/* ACA COMIENZA FAVORITOS*/
+.favoritos {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+
+  
+}
+
+
+.listafavoritos {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+
+.listafavoritos section {
+    width: 100%;
+  display: flex;
+
+}
+
+.listafavoritos article {
+    width: 50%;
+    height: 200px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 10px;
+  
+}
+
+.listafavoritos img {
+    width: 100%;
+    height: 250px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listafavoritos h3 {
+    margin-top: 8px;
+    max-height: 35px;
+}
+
+/*ACA TERMINA FAVORITOS*/
+
+/*ACA COMIENZA DETALLE*/
+ .detalle {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+ }
