@@ -1,34 +1,104 @@
 * {
     box-sizing: border-box;
-    background-color: rgb(250, 140, 66);
+    background-color: rgb(124, 122, 120);
 }
 
-
-/* ACA COMIENZA EL INDEX */ 
-main section {
-    font-family: 'Noto Sans KR', sans-serif;
-    text-decoration: underline;
-
+/* Footer abajo de todo  */ 
+body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 50px;
-    margin: 10px;
+    min-height: 100vh;
+}
+footer {
+    margin-top: auto;
+}
+/* Footer abajo de todo  */ 
+
+/* ACA COMIENZA EL INDEX {}  */ 
+
+
+
+.index section {
+    font-family: 'Noto Sans KR', sans-serif;
+
+
     padding-top: 60px;
-    width: 100%ss
+    width: 100%
 }
 
 
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: chocolate;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    margin-bottom: -30px;
+    border-radius: 20px 20px 0 0;
+    margin-top: auto;
+}
 
-header {
+footer h1 {
+    background: chocolate;
+}
+
+.headerindex {
     display: block;
     height: auto;
     justify-content: center;
     border: black solid;
-    box-sizing: border-box;
-    overflow: hidden;
 }
 
+.index input{
+    display: block;
+    margin: auto;  
+}
+
+
+.menuh a {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+
+.indexlista  {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    background: black;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+.indexlista li {
+    background: red;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.indexlista li h1{
+    background: red;
+    font-style: italic;
+    border-radius: 2px;
+}
+.indexlista h2  {
+    font-size: 15px;
+    background: red;
+    border-radius: 2px;
+}
+
+.index strong {
+    background-color: coral;
+    text-decoration: underline;
+    font-size: 30px;
+    border-radius: 3px;
+}
+
+.index img{
+    padding: 5px;
+}
 
 .menuh {
     display: flex;
@@ -40,7 +110,6 @@ header {
     gap: 30px;
 }
 
-
 .Logo {
     display: flex;
     justify-content: center;
@@ -49,28 +118,41 @@ header {
     padding-top: 10px;
 }
 
-<<<<<<< Updated upstream
-/* ACA TERMINA EL INDEX */ 
-=======
 
-.favoritos {
+.headerindex div {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+.headerindex input {
     font-family: 'Noto Sans KR', sans-serif;
-    text-align: center;
-
-  
+    border-radius: 5px;
+    max-width: 200px;
+    background: goldenrod;
+    font-weight: bold;
 }
-
-
-.listafavoritos {
+.headerindex label {
+    background: goldenrod;
+    border-radius: 5px;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 18px;
-
-   
+}
+.headerindex button {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: green;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 
-.Rapidos {
-  height: auto;
-}
 
->>>>>>> Stashed changes
+
+/* */
+/* ACA TERMINA EL INDEX  {} */ 
+
+/* */
+/* ACA COMIENZA EL RESULTADO DE BUSQUEDA */
+ .headerindex h1 {
+     font-family: 'Noto Sans KR', sans-serif;
+ }
+/* ACA TERMINA EL RESULTADO DE BUSQUEDA */

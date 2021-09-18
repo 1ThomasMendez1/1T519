@@ -17,50 +17,83 @@
 
     <body>
 
-        <header>
+        <header class="headerindex">
+             <!--En action va el html de busqueda-->
+            <form action="/.html" method="GET">
+                <div class="buscador">
+                    <label for="buscador">Buscador:</label>
+                    <input type="text" name="buscador" value="">
+                    <button type="submit">Buscar</button>
+                    
+                </div>
+                
+            </form>
             
          <div class="Logo">
             <img src="img/logo/cinema-clapperboard.png" alt="Logo">
          </div>
 
-         <div class="menuh">     
-            <h1>HOME</h1>
-            <h1>GENEROS</h1>
-            <h1>TUS FAVORITOS</h1>
+         <div class="menuh">    
+           <a href="/index.html"> <h1>HOME</h1></a>
+           <a href=""> <h1>GENEROS</h1></a>
+           <a href=""> <h1>TUS FAVORITOS</h1></a>
         </div>
 
         </header>
 
 
 
-        <main>
+        <main class="index">
 
             <!--Cada section corresponde a un listado, cada article a una pelicula-->
             <title>Peliculas Populares</title>
             <section class="Peliculas-populares">
 
                 <strong>Peliculas populares</strong>
-                
-                <article>
-                    <h1>"Star wars, Phantom Menace" 8 de julio de 1999</h1>
-                    <img src="img/peliculas populares/starwars.jpg" alt="starwars">
-
-                </article>
-                    <h1>"Avengers end game" 26 de abril de 2019</h1>
-                     <img src="img/peliculas populares/avengers.jpg" alt="avengers">
-
-                <article>
-                    <h1>"Aquaman" 13 de diciembre de 2018</h1>
-                    <img src="img/peliculas populares/aquaman.jpg" alt="aquaman">
-
-                </article>
-                    <h1>"2012" 3 de diciembre de 2009</h1>
-                     <img src="img/peliculas populares/2012.jpg" alt="2012">
-
-                <article>
-                    <h1>"Wall-e" 9 de julio de 2008</h1>
-                    <img src="img/peliculas populares/Wall-e.jpg" alt="Wall-e">
-                </article>
+                <ul class="indexlista">
+                    <li>
+                        
+                            <h1>"Star wars"</h1>
+                            <h2>8 de julio de 1999</h2>
+                          <a href=""> <img src="img/peliculas populares/starwars.jpg" alt="starwars"> </a>
+                          <input type="checkbox" name="favoritos">
+        
+                        
+                    </li>
+                    <li>
+                        
+                            <h1>"Avengers end game"</h1>
+                            <h2>26 de abril de 2019</h2>
+                            <a href=""> <img src="img/peliculas populares/avengers.jpg" alt="avengers"> </a>
+                            <input type="checkbox" name="favoritos">
+                        
+                    </li>
+                    <li>
+                        
+                            <h1>"Aquaman"</h1>
+                            <h2>13 de diciembre de 2018</h2>
+                            <a href=""> <img src="img/peliculas populares/aquaman.jpg" alt="aquaman"> </a>
+                            <input type="checkbox" name="favoritos">
+        
+                        
+                    </li>
+                    <li>
+                        
+                            <h1>"2012"</h1>
+                            <h2>3 de diciembre de 2009</h2>
+                            <a href=""> <img src="img/peliculas populares/2012.jpg" alt="2012"> </a>
+                            <input type="checkbox" name="favoritos">
+                        
+                    </li>
+                    <li>
+                        
+                            <h1>"Titanic"</h1>
+                            <h2>9 de julio de 2008</h2>
+                            <a href=""> <img src="img/peliculas populares/titanic.jpg" alt="titanic"> </a> 
+                            <input type="checkbox" name="favoritos">
+                        
+                    </li>
+                </ul>
 
             </section>
 
@@ -68,26 +101,49 @@
             <section class="Lo-mas-visto-en-peliculas">
 
                 <strong>Lo mas visto en peliculas</strong>
-
-                <article>
-                    <h1>"It" 21 de septiembre de 2017</h1>
-                    <img src="img/lo mas visto en peliculas/it.jpg" alt="it">
-
-                </article>
-                    <h1>"La La Land" 22 de diciembre de 2016</h1>
-                     <img src="img/lo mas visto en peliculas/lalaland.jpg" alt="lalaland">
-
-                <article>
-                    <h1>"The Ides of March" 19 de enero de 2012</h1>
-                    <img src="img/lo mas visto en peliculas/march.jpg" alt="march">
-
-                </article>
-                    <h1>"La monja" 7 de septiembre de 2018</h1>
-                     <img src="/img/lo mas visto en peliculas/nun.jpg" alt="nun">
-                <article>
-                    <h1>"El prodigio" 8 de febrero de 2019</h1>
-                    <img src="img/lo mas visto en peliculas/prodigio.jpg" alt="prodigio">
-                </article>
+                <ul class="indexlista">
+                    <li>
+                        
+                            <h1>"It"</h1>
+                            <h2>21 de septiembre de 2017</h2>
+                            <a href=""> <img src="img/lo mas visto en peliculas/it.jpg" alt="it"> </a> 
+                            <input type="checkbox" name="favoritos">
+                        
+                    </li>
+                    <li>
+                        
+                            <h1>"La La Land"</h1>
+                            <h2>22 de diciembre de 2016</h2>
+                            <a href=""> <img src="img/lo mas visto en peliculas/lalaland.jpg" alt="lalaland"> </a>
+                            <input type="checkbox" name="favoritos">
+                        
+                    </li>
+                    <li>
+                        
+                            <h1>"The Ides of March"</h1>
+                            <h2>19 de enero de 2012</h2>
+                            <a href=""> <img src="img/lo mas visto en peliculas/march.jpg" alt="march"> </a>
+                            <input type="checkbox" name="favoritos">
+        
+                        
+                    </li>
+                    <li>
+                        
+                            <h1>"La monja"</h1>
+                            <h2>7 de septiembre de 2018</h2>
+                            <a href=""> <img src="img/lo mas visto en peliculas/nun.jpg" alt="nun"> </a>
+                            <input type="checkbox" name="favoritos">
+                        
+                    </li>
+                    <li>
+                        
+                            <h1>"El prodigio"</h1>
+                            <h2>8 de febrero de 2019</h2>
+                            <a href=""> <img src="img/lo mas visto en peliculas/prodigio.jpg" alt="prodigio"> </a>
+                            <input type="checkbox" name="favoritos">
+                        
+                    </li>
+                </ul>
 
             </section>
 
@@ -95,27 +151,51 @@
             <section class="Lo-mas-visto-en-series">
 
                 <strong>Lo mas visto en series</strong>
+                <ul class="indexlista">
+                    <li>
+                        
+                            <h1>"Loki"</h1>
+                            <h2>9 de junio de 2021</h2>
+                            <a href=""> <img src="img/lo mas visto en series/loki.jpg" alt="loki"> </a>
+                            <input type="checkbox" name="favoritos">
+        
+                        
+                    </li>
+                    <li>
+                        
+                            <h1>"House of cards"</h1>
+                            <h2>9 de septiembre de 2018</h2>
+                            <a href=""> <img src="img/lo mas visto en series/house.jpg" alt="house of cards"> </a>
+                            <input type="checkbox" name="favoritos">
+                        
+                    </li>
+                    <li>
+                        
+                            <h1>"Designated survivor"</h1>
+                            <h2>2 de agosto de 2017</h2>
+                            <a href=""> <img src="img/lo mas visto en series/dsurvivor.jpg" alt="Designated survivor"> </a>
+                            <input type="checkbox" name="favoritos">
+        
+                         
+                    </li>
+                    <li>
+                        
+                            <h1>"Our planet"</h1>
+                            <h2>19 de marzo de 2014</h2>
+                            <a href=""> <img src="img/lo mas visto en series/planet.jpg" alt="Our planet"> </a>
+                            <input type="checkbox" name="favoritos">
+                        
+                    </li>
+                    <li>
+                        
+                            <h1>"Breaking bad"</h1>
+                            <h2>24 de octubre de 2008</h2>
+                            <a href=""> <img src="img/lo mas visto en series/bbad.jpg" alt="Breaking bad"> </a>
+                            <input type="checkbox" name="favoritos">
+                        
+                    </li>
+                </ul>
 
-                <article>
-                    <h1>"Loki" 9 de junio de 2021</h1>
-                    <img src="img/lo mas visto en series/loki.jpg" alt="loki">
-
-                </article>
-                    <h1>"You" 9 de septiembre de 2018</h1>
-                     <img src="img/lo mas visto en series/you.jpg" alt="you">
-
-                <article>
-                    <h1>"Sinner" 2 de agosto de 2017</h1>
-                    <img src="img/lo mas visto en series/sinner.jpg" alt="sinner">
-
-                </article>
-                    <h1>"The 100" 19 de marzo de 2014</h1>
-                     <img src="img/lo mas visto en series/100.jpg" alt="100">
-
-                <article>
-                    <h1>"The end of the f**cking world" 24 de octubre de 2017   </h1>
-                    <img src="img/lo mas visto en series/world.jpg" alt="world">
-                </article>
 
             </section>
 
@@ -124,7 +204,11 @@
 
 
         <footer>
-
+            <div>
+                <h1>Thomas mendez</h1>
+                <h1>Bautista San Pedro</h1>
+                <h1>Pipe Varela</h1>
+            </div>
         </footer>
 
     </body>
