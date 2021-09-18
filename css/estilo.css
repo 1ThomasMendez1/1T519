@@ -118,6 +118,7 @@ footer h1 {
     padding-top: 10px;
 }
 
+<<<<<<< HEAD
 
 .headerindex div {
     display: flex;
@@ -156,3 +157,14 @@ footer h1 {
      font-family: 'Noto Sans KR', sans-serif;
  }
 /* ACA TERMINA EL RESULTADO DE BUSQUEDA */
+=======
+/* ACA TERMINA EL INDEX */ 
+
+.TituloDeGenerosDePeliculas {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    
+    
+}
+>>>>>>> 278f0852dedd005a69933b2e031095eb81205a43
