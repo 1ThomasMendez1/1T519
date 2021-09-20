@@ -1,34 +1,104 @@
 * {
     box-sizing: border-box;
-    background-color: rgb(250, 140, 66);
+    background-color: rgb(124, 122, 120);
 }
 
-
-/* ACA COMIENZA EL INDEX */ 
-main section {
-    font-family: 'Noto Sans KR', sans-serif;
-    text-decoration: underline;
-
+/* Footer abajo de todo  */ 
+body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 50px;
-    margin: 10px;
+    min-height: 100vh;
+}
+footer {
+    margin-top: auto;
+}
+/* Footer abajo de todo  */ 
+
+/* ACA COMIENZA EL INDEX {}  */ 
+
+
+
+.index section {
+    font-family: 'Noto Sans KR', sans-serif;
+
+
     padding-top: 60px;
-    width: 100%ss
+    width: 100%
 }
 
 
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: chocolate;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    margin-bottom: -30px;
+    border-radius: 20px 20px 0 0;
+    margin-top: auto;
+}
 
-header {
+footer h1 {
+    background: chocolate;
+}
+
+.headerindex {
     display: block;
     height: auto;
     justify-content: center;
     border: black solid;
-    box-sizing: border-box;
-    overflow: hidden;
 }
 
+.index input{
+    display: block;
+    margin: auto;  
+}
+
+
+.menuh a {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+
+.indexlista  {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    background: black;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+.indexlista li {
+    background: red;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.indexlista li h1{
+    background: red;
+    font-style: italic;
+    border-radius: 2px;
+}
+.indexlista h2  {
+    font-size: 15px;
+    background: red;
+    border-radius: 2px;
+}
+
+.index strong {
+    background-color: coral;
+    text-decoration: underline;
+    font-size: 30px;
+    border-radius: 3px;
+}
+
+.index img{
+    padding: 5px;
+}
 
 .menuh {
     display: flex;
@@ -40,14 +110,50 @@ header {
     gap: 30px;
 }
 
-
-.Logo {
-    display: flex;
-    justify-content: center;
+.Logo img {
     height: 120px;
     padding-right: 40px;
+   
+}
+
+
+.headerindex div {
+    display: flex;
+    justify-content: flex-end;
     padding-top: 10px;
 }
+
+.headerindex input {
+    font-family: 'Noto Sans KR', sans-serif;
+    border-radius: 5px;
+    max-width: 200px;
+    background: goldenrod;
+    font-weight: bold;
+}
+.headerindex label {
+    background: goldenrod;
+    border-radius: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.headerindex button {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: green;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+
+/* */
+/* ACA TERMINA EL INDEX  {} */ 
+
+/* */
+/* ACA COMIENZA EL RESULTADO DE BUSQUEDA */
+ .headerindex h1 {
+     font-family: 'Noto Sans KR', sans-serif;
+ }
+/* ACA TERMINA EL RESULTADO DE BUSQUEDA */
 
 /* ACA TERMINA EL INDEX */ 
 
@@ -58,14 +164,14 @@ header {
     
     
 }
+
 /* ACA COMIENZA FAVORITOS*/
-.favoritos {
+
+
+.listafavoritos h1 {
     font-family: 'Noto Sans KR', sans-serif;
     text-align: center;
-
-  
 }
-
 
 .listafavoritos {
     font-family: 'Noto Sans KR', sans-serif;
@@ -74,22 +180,35 @@ header {
     max-width: 900px;
 }
 
-
 .listafavoritos section {
-    width: 100%;
-  display: flex;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    background: black;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
 
 }
 
-.listafavoritos article {
+.listafavoritos li {
     width: 50%;
     height: 200px;
     margin-bottom: 30px;
     padding: 15px;
-    border-radius: 10px;
-  
+    padding: 10px;
+    border-radius: 2px;
 }
 
+.listafavoritos img {
+    width: 100%;
+    height: 200px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 .listafavoritos img {
     width: 100%;
     height: 250px;
@@ -98,16 +217,47 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+ /*ACA TERMINA FAVORITOS*/
 
-.listafavoritos h3 {
-    margin-top: 8px;
-    max-height: 35px;
-}
 
-/*ACA TERMINA FAVORITOS*/
+/*ACA COMIENZA EL DETALLE PELICULA*/
 
-/*ACA COMIENZA DETALLE*/
- .detalle {
+.titulo-sw h1 {
     font-family: 'Noto Sans KR', sans-serif;
     text-align: center;
+} 
+
+.swars img {
+     height: 350px;
+     width: auto;
+     display: flex;
+     margin-right: 15px;
  }
+
+
+ .depe {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+
+  .detalle-pelicula h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 20px;
+    justify-content: space-around;
+  }
+
+  .depe p {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: left;
+    font-size: 20px;
+  }
+
+
+ 
+/*ACA TERMINA EL DETALLE PELICULA*/
+
+
+/*ACA COMIENZA EL DETALLE SERIE*/
