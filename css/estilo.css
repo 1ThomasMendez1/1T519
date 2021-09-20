@@ -225,8 +225,6 @@ footer h1 {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* MEDIA QUERIES ( siempre va al final del css !)  */
 
 
@@ -237,7 +235,9 @@ footer h1 {
     body {
         width: 254vw;
         height: 257vh;
-    } 
+     }
+        
+    
 }
 
 
@@ -408,10 +408,3 @@ footer h1 {
 
 
 
-
-
-
-
-
-
->>>>>>> a5f508e4993e1bee1a80874401bd3169de58eb4c
