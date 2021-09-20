@@ -237,7 +237,8 @@ footer h1 {
     body {
         width: 254vw;
         height: 257vh;
-    }
+    } 
+}
 
 
     .headerindex {
@@ -317,7 +318,7 @@ footer h1 {
 
 
 
-}
+
 /* MEDIA QUERIES RESULTADOBUSQUEDA TERMINA */
 
 .GenerosDePeliculas a {
