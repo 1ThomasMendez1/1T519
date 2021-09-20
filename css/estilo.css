@@ -214,6 +214,7 @@ footer h1 {
 .TituloDeGenerosDePeliculas {
     font-size: 30px;
     text-decoration: underline;
+    font-family: 'Noto Sans KR', sans-serif;
 
     
 }
@@ -221,8 +222,10 @@ footer h1 {
 .TitulosDeGenerosDeSeries {
     font-size: 30px;
     text-decoration: underline;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* MEDIA QUERIES ( siempre va al final del css !)  */
 
@@ -318,21 +321,34 @@ footer h1 {
 /* MEDIA QUERIES RESULTADOBUSQUEDA TERMINA */
 =======
 .GenerosDePeliculas {
+=======
+.GenerosDePeliculas a {
+>>>>>>> a5f508e4993e1bee1a80874401bd3169de58eb4c
     font-size: 20px ;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: red;
+    text-decoration: none;
+    
 
 }
 
-.GenerosDeSeries {
+.GenerosDeSeries a {
     font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: red;
+    text-decoration: none;
+
 }
 
 .TerrorTitulo {
     text-align: center;
     font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .Peliculas {
     font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
 
 }
 
@@ -347,6 +363,8 @@ footer h1 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: red;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 
@@ -355,6 +373,7 @@ footer h1 {
     display: block;
     height: 200px;
     padding: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
 
 }
 .Breakingbad{
@@ -363,7 +382,38 @@ footer h1 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
 
 }
 
+.ProdigioPelicula {
+    text-align: center;
+}
+
+<<<<<<< HEAD
 >>>>>>> 25a6a153be24bbc1d7dda53e83d99b5b716ee1d6
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> a5f508e4993e1bee1a80874401bd3169de58eb4c
