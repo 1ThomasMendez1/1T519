@@ -20,9 +20,7 @@ footer div {
     justify-content: space-evenly;
     background-color: chocolate;
     font-family: 'Noto Sans KR', sans-serif;
-    margin-top: auto;
     font-size: 10px;
-    margin-bottom: -30px;
     border-radius: 20px 20px 0 0;
 }
 footer h1 {
@@ -214,7 +212,6 @@ footer h1 {
 .TituloDeGenerosDePeliculas {
     font-size: 30px;
     text-decoration: underline;
-    font-family: 'Noto Sans KR', sans-serif;
 
     
 }
@@ -222,7 +219,6 @@ footer h1 {
 .TitulosDeGenerosDeSeries {
     font-size: 30px;
     text-decoration: underline;
-    font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* MEDIA QUERIES ( siempre va al final del css !)  */
@@ -233,64 +229,85 @@ footer h1 {
 /* MEDIA QUERIES INDEX INICIA */
 @media (max-width:420px) {
     body {
+<<<<<<< HEAD
         width: 254vw;
         height: 257vh;
      }
         
     
 }
+=======
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        min-height: 100vh;
+    }
+
+    html {
+        width: 100vw;
+        min-height: 100vh;
+    }
+>>>>>>> 3b44963a050c3f46943d16b3fe4b35d3cd1172d7
 
 
     .headerindex {
-        width: 257vw;
+        width: 98vw;
     }
 
     .headerindex .menuh {
-        font-size: 20px;
-        justify-content: center;
-        gap: 100px;
+        font-size: 8px;
+        justify-content: space-around;
     }
 
     .headerindex img {
-        height: 140px;
+        height: 100px;
     }
 
     .headerindex .buscador {
-        font-size: 30px;
-        height: 50px;
+        font-size: 20px;
+        height: 32px;
         gap: 5px;
+        justify-content: center;
     }
 
     .headerindex button {
-        font-size: 30px;
+        font-size: 20px;
     }
 
 
     .index {
         display: flex;
         flex-direction: column;
-        gap: 70px;
+        gap: 5px;
         width: 100vw;
+        height: 100vh;
     }
 
     .index strong {
+        display: flex;
         justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .indexlista {
+        display: flex;
+        min-height: 100vh;
         gap: 10px;
         justify-content: center;
         padding: 5px;
         width: fit-content;
+        flex-wrap: wrap;
     }
 
-
     footer {
-        margin-left: 10px;
+        display: block;
+        margin-top: 6060px;
+        margin-right: 16px;
     }
 
     footer div {
-        font-size: 15px;
+        font-size: 5px;
     }
 
  /* MEDIA QUERIES INDEX TERMINA */
@@ -299,27 +316,39 @@ footer h1 {
 
 
 .rb  {
-    font-size: 50px;
+    font-size: 30px;
  } 
 
  .busqueda h1 {
-     font-size: 45px;
+     font-size: 25px;
  }
 
-.imagenb {
-    width: 60%;
-    height: 90vh;
-}
+ .busqueda {
+     margin-right: 15px;
+ }
+
+ .imagenb {
+    width: 80vw;
+    height: 50vh;
+ }
 
  .busquedalista  {
-     font-size: 70px;
-     gap: 70px;
+     font-size: 40px;
+     text-decoration: underline;
+     gap: 50px;
  }
 
+ .fbusqueda {
+     margin-top: auto;
+ }
 
+ .fbusqueda div {
+     margin-right: 5px;
+ }
 
 
 /* MEDIA QUERIES RESULTADOBUSQUEDA TERMINA */
+<<<<<<< HEAD
 
 .GenerosDePeliculas a {
     font-size: 20px ;
@@ -408,3 +437,5 @@ footer h1 {
 
 
 
+=======
+>>>>>>> 3b44963a050c3f46943d16b3fe4b35d3cd1172d7
