@@ -319,11 +319,8 @@ footer h1 {
 
 }
 /* MEDIA QUERIES RESULTADOBUSQUEDA TERMINA */
-=======
-.GenerosDePeliculas {
-=======
+
 .GenerosDePeliculas a {
->>>>>>> a5f508e4993e1bee1a80874401bd3169de58eb4c
     font-size: 20px ;
     font-family: 'Noto Sans KR', sans-serif;
     color: red;
@@ -357,14 +354,9 @@ footer h1 {
 }
 
 
-.Prodigio {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
+.ProdigioPelicula {
     text-align: center;
-    background-color: red;
-    font-family: 'Noto Sans KR', sans-serif;
+
 }
 
 
@@ -376,7 +368,7 @@ footer h1 {
     font-family: 'Noto Sans KR', sans-serif;
 
 }
-.Breakingbad{
+.Breakingbad {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -386,13 +378,18 @@ footer h1 {
 
 }
 
-.ProdigioPelicula {
-    text-align: center;
+.TituloPeliculas {
+    font-size: 30px;
+    text-decoration: underline;
 }
 
-<<<<<<< HEAD
->>>>>>> 25a6a153be24bbc1d7dda53e83d99b5b716ee1d6
-=======
+.TituloSeries {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+
 
 
 
