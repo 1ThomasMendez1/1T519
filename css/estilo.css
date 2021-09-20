@@ -229,29 +229,23 @@ footer h1 {
 /* MEDIA QUERIES INDEX INICIA */
 @media (max-width:420px) {
     body {
-<<<<<<< HEAD
-        width: 254vw;
-        height: 257vh;
-     }
-        
-    
-}
-=======
         display: flex;
         flex-direction: column;
         width: 100vw;
         min-height: 100vh;
-    }
+     }
+        
+    
 
     html {
         width: 100vw;
         min-height: 100vh;
     }
->>>>>>> 3b44963a050c3f46943d16b3fe4b35d3cd1172d7
+
 
 
     .headerindex {
-        width: 98vw;
+        width: 96vw;
     }
 
     .headerindex .menuh {
@@ -352,11 +346,15 @@ footer h1 {
  .fbusqueda div {
      margin-right: 5px;
  }
+<<<<<<< HEAD
 >>>>>>> 68b3453db6aa0801724349fd0b1bb137b7fb26d6
+=======
+}
+>>>>>>> 8eecdf0de1b4bf6b15fa0b2d1ac10108977b7d1b
 
 
 /* MEDIA QUERIES RESULTADOBUSQUEDA TERMINA */
-<<<<<<< HEAD
+
 
 .GenerosDePeliculas {
 =======
