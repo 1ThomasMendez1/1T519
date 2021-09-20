@@ -212,11 +212,18 @@ footer h1 {
 
 
 .TituloDeGenerosDePeliculas {
-    font-size: 50px;
-    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+
+    
+}
+
+.TitulosDeGenerosDeSeries {
+    font-size: 30px;
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
 /* MEDIA QUERIES ( siempre va al final del css !)  */
 
 
@@ -309,3 +316,54 @@ footer h1 {
 
 }
 /* MEDIA QUERIES RESULTADOBUSQUEDA TERMINA */
+=======
+.GenerosDePeliculas {
+    font-size: 20px ;
+
+}
+
+.GenerosDeSeries {
+    font-size: 20px;
+}
+
+.TerrorTitulo {
+    text-align: center;
+    font-size: 20px;
+}
+
+.Peliculas {
+    font-size: 20px;
+
+}
+
+.LinkaComedia {
+    color:black;
+}
+
+
+.Prodigio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.fotoProdigio img {
+    display: block;
+    height: 200px;
+    padding: 10px;
+
+}
+.Breakingbad{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+>>>>>>> 25a6a153be24bbc1d7dda53e83d99b5b716ee1d6
