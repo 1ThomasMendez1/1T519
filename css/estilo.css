@@ -146,7 +146,6 @@ footer h1 {
 }
 
 
-/* */
 /* ACA TERMINA LA PAGINA PRINCIPAL  {} */ 
 
 
@@ -217,3 +216,96 @@ footer h1 {
     text-align: center;
     text-decoration: underline;
 }
+
+/* MEDIA QUERIES ( siempre va al final del css !)  */
+
+
+/* MEDIA QUERIES MOBILE */
+
+/* MEDIA QUERIES INDEX INICIA */
+@media (max-width:420px) {
+    body {
+        width: 254vw;
+        height: 257vh;
+    }
+
+
+    .headerindex {
+        width: 257vw;
+    }
+
+    .headerindex .menuh {
+        font-size: 20px;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .headerindex img {
+        height: 140px;
+    }
+
+    .headerindex .buscador {
+        font-size: 30px;
+        height: 50px;
+        gap: 5px;
+    }
+
+    .headerindex button {
+        font-size: 30px;
+    }
+
+
+    .index {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        width: 100vw;
+    }
+
+    .index strong {
+        justify-content: center;
+    }
+
+    .indexlista {
+        gap: 10px;
+        justify-content: center;
+        padding: 5px;
+        width: fit-content;
+    }
+
+
+    footer {
+        margin-left: 10px;
+    }
+
+    footer div {
+        font-size: 15px;
+    }
+
+ /* MEDIA QUERIES INDEX TERMINA */
+
+ /* MEDIA QUERIES RESULTADOBUSQUEDA INICIA */
+
+
+.rb  {
+    font-size: 50px;
+ } 
+
+ .busqueda h1 {
+     font-size: 45px;
+ }
+
+.imagenb {
+    width: 60%;
+    height: 90vh;
+}
+
+ .busquedalista  {
+     font-size: 70px;
+     gap: 70px;
+ }
+
+
+
+}
+/* MEDIA QUERIES RESULTADOBUSQUEDA TERMINA */
