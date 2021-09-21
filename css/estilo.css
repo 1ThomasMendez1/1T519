@@ -229,25 +229,12 @@ footer h1 {
 /* MEDIA QUERIES INDEX INICIA */
 @media (max-width:420px) {
     body {
-<<<<<<< HEAD
         width: 254vw;
         height: 257vh;
      }
         
     
 }
-=======
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        min-height: 100vh;
-    }
-
-    html {
-        width: 100vw;
-        min-height: 100vh;
-    }
->>>>>>> 3b44963a050c3f46943d16b3fe4b35d3cd1172d7
 
 
     .headerindex {
@@ -348,7 +335,6 @@ footer h1 {
 
 
 /* MEDIA QUERIES RESULTADOBUSQUEDA TERMINA */
-<<<<<<< HEAD
 
 .GenerosDePeliculas a {
     font-size: 20px ;
@@ -386,26 +372,20 @@ footer h1 {
 
 .ProdigioPelicula {
     text-align: center;
+    background-color: red;
+    width: 30vh;
+    justify-content: center;
+    margin: 0 auto;
+    
 
 }
 
-
-
-.fotoProdigio img {
-    display: block;
-    height: 200px;
-    padding: 10px;
-    font-family: 'Noto Sans KR', sans-serif;
-
-}
 .Breakingbad {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
+    background-color: red;
+    justify-content: center;
+    width: 30vh;
+    margin: 0 auto;
     text-align: center;
-    font-family: 'Noto Sans KR', sans-serif;
-
 }
 
 .TituloPeliculas {
@@ -437,5 +417,4 @@ footer h1 {
 
 
 
-=======
->>>>>>> 3b44963a050c3f46943d16b3fe4b35d3cd1172d7
+
