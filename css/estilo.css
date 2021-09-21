@@ -209,17 +209,7 @@ footer h1 {
 /* ACA TERMINA LA PAGINA RESULTADO DE BUSQUEDA */
 
 
-.TituloDeGenerosDePeliculas {
-    font-size: 30px;
-    text-decoration: underline;
 
-    
-}
-
-.TitulosDeGenerosDeSeries {
-    font-size: 30px;
-    text-decoration: underline;
-}
 
 /* MEDIA QUERIES ( siempre va al final del css !)  */
 
@@ -347,6 +337,17 @@ footer h1 {
 
 
 /* ACA COMIENZA LA PAGINA DE GENEROS */
+.TituloDeGenerosDePeliculas {
+    font-size: 30px;
+    text-decoration: underline;
+
+    
+}
+
+.TitulosDeGenerosDeSeries {
+    font-size: 30px;
+    text-decoration: underline;
+}
 
 
 .TituloPeliculas {
