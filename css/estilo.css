@@ -346,6 +346,23 @@ footer h1 {
 
 
 
+/* ACA COMIENZA LA PAGINA DE GENEROS */
+
+
+.TituloPeliculas {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.TituloSeries {
+    font-size: 30px;
+    text-decoration: underline;
+}
 
 
 
@@ -364,6 +381,8 @@ footer h1 {
     text-decoration: none;
 
 }
+
+/* ACA COMIENZA LA PAGINA DE DETALLE DE GENEROS */ 
 
 .TerrorTitulo {
     text-align: center;
@@ -394,6 +413,18 @@ footer h1 {
     width: 30vh;
     margin: 0 auto;
 }
+.TituloBB {
+    text-align: center;
+}
+
+
+.Breakingbad {
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+
 
 
 
@@ -524,31 +555,6 @@ footer h1 {
 
 
 
-.TituloBB {
-    text-align: center;
-}
-
-
-.Breakingbad {
-    padding-top: 10px;
-    align-items: center;
-    text-align: center;
-}
-
-.TituloPeliculas {
-    font-size: 30px;
-    text-decoration: underline;
-}
-
-
-
-
-
-
-.TituloSeries {
-    font-size: 30px;
-    text-decoration: underline;
-}
 
 
 
