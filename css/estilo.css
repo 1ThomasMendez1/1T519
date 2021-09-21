@@ -337,6 +337,7 @@ footer h1 {
 
 
 /* ACA COMIENZA LA PAGINA DE GENEROS */
+
 .TituloDeGenerosDePeliculas {
     font-size: 30px;
     text-decoration: underline;
@@ -400,7 +401,7 @@ footer h1 {
 .ProdigioPelicula {
     text-align: center;
     background-color: red;
-    width: 30vh;
+    width: 15vw;
     justify-content: center;
     margin: 0 auto;
     
@@ -411,7 +412,7 @@ footer h1 {
 .Breakingbad {
     background-color: red;
     justify-content: center;
-    width: 30vh;
+    width: 15vw;
     margin: 0 auto;
 }
 .TituloBB {
