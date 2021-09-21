@@ -84,8 +84,8 @@ footer h3 {
 
 .Logo {
     height: 150px;
-    margin-left: 870px;
-
+    display: flex;
+    margin: 0 auto;
 }
 
 
