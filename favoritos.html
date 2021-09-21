@@ -7,66 +7,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="css/estilo.css">
-    <title>Favoritos</title>
+    <title>BestPelis - Favoritos</title>
     </head>
 
 
 <body>
 
-    <header>
-            
-        <div class="Logo">
-           <img src="/img/cinema-clapperboard.png" alt="Logo">
-        </div>
+    <header class="headerindex">
+        <!--En action va el html de busqueda-->
+       <form action="/.html" method="GET">
+           <div class="buscador">
+               <label for="buscador">Buscador:</label>
+               <input type="text" name="buscador" value="">
+               <button type="submit">Buscar</button>
+               
+           </div>
            
-           
-        <div class="menuh">    
-            <a href="/index.html"> <h1>HOME</h1></a>
-            <a href="./generos/generos.html"> <h1>GENEROS</h1></a>
-            <a href="./favoritos.html"> <h1>TUS FAVORITOS</h1></a>
-         </div>
-         
-        
-      
-    </header>
-
-    <div class="favoritos">
-        <h1>Favoritos</h1>
+       </form>
+       
+    <div class="Logo">
+       <img src="img/logo/cinema-clapperboard.png" alt="Logo">
     </div>
 
-    
-    <div class="listafavoritos">
+    <div class="menuh">    
+      <a href="/index.html"> <h1>HOME</h1></a>
+      <a href=""> <h1>GENEROS</h1></a>
+      <a href="/favoritos.html"> <h1>TUS FAVORITOS</h1></a>
+   </div>
+
+   </header>
+
+
+    <main class="favoritos">
+
         <!--Cada article es una película-->
-        <section class="peliculasfavoritas">
+        <title>Favoritos</title>
+        <section class="fav">
+            <strong>Favoritos</strong>
 
-            <article class="Rapidos">
-                <h3>Rapidos y Furiosos 9</h3>
-              <div class="rf9">
-        <img src="img/RyF.jpg" alt="Imagen Rapidos y Furiosos 9">
-              </div>
-            </article>
+          <ul class="favoritoslista">
 
-            </article>
-
-            <article>
-
-            </article>
-
-            <article>
-
-            </article>
-
-            <article>
-
-            </article>
-
-            <article>
+              <li>
+                <h3>Star Wars</h3>
+                <a href="detalle-pelicula.html"><img src="img/peliculas populares/starwars.jpg" alt="Imagen Star Wars"> </a>
+                <button>Quitar de Favoritos</button>
+             </li>
+        
+             <li>
+                 <h3>Harry Potter</h3>
+                 <a href="detalle-pelicula.html"><img src="img/favoritos/harrypotter.jpg" alt="Imagen Harry Potter"> </a>
+                 <button>Quitar de Favoritos</button>
+             </li>
+          
+             <li>
+                 <h3>Merli</h3>
+                 <a href="detalle-serie.html"><img src="img/favoritos/merli.jpg" alt="Imagen Merli"> </a>
+                 <button>Quitar de Favoritos</button>
+             </li>
             
-            </article>
+             <li>
+                 <h3>Breaking Bad</h3>
+                 <a href="detalle-serie.html"><img src="img/lo mas visto en series/bbad.jpg" alt="Imagen Breaking Bad"> </a>
+                 <button>Quitar de Favoritos</button>
+             </li>
+
+             <li>
+                 <h3>Duro de Matar</h3>
+                 <a href="detalle-pelicula.html"><img src="img/favoritos/durodematar.jpg" alt="Imagen Duro de Matar"> </a>
+                 <button>Quitar de Favoritos</button>
+             </li>
+            </ul>
     </section>
-    </div>
+    </main>
 
     <footer>
         <div>

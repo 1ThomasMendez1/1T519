@@ -238,7 +238,7 @@ footer h1 {
 
 
     .headerindex {
-        width: 98vw;
+        width: 96vw;
     }
 
     .headerindex .menuh {
@@ -329,20 +329,32 @@ footer h1 {
      margin-top: auto;
  }
 
+
+/* ACA TERMINA EL RESULTADO DE BUSQUEDA */
+
+/* ACA TERMINA EL INDEX */ 
+
+
+
  .fbusqueda div {
      margin-right: 5px;
  }
 
 
+
 /* MEDIA QUERIES RESULTADOBUSQUEDA TERMINA */
 
+
+
+
+
+
 .GenerosDePeliculas a {
+
     font-size: 20px ;
     font-family: 'Noto Sans KR', sans-serif;
     color: red;
     text-decoration: none;
-    
-
 }
 
 .GenerosDeSeries a {
@@ -380,11 +392,151 @@ footer h1 {
 
 }
 
+
 .Breakingbad {
     background-color: red;
     justify-content: center;
     width: 30vh;
     margin: 0 auto;
+}
+
+
+
+
+
+
+/* ACA COMIENZA FAVORITOS*/
+
+.favoritos section {
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 60px;
+    width: 100%
+}
+
+.favoritos strong {
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: coral;
+    text-decoration: underline;
+    font-size: 30px;
+    border-radius: 3px;
+}
+
+.favoritos img {
+    padding: 5px;
+}
+
+.favoritoslista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    background: black;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px; 
+}
+
+.favoritoslista li {
+    background: red;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.favoritoslista li h3 {
+    background: red;
+    font-style: italic;
+    border-radius: 2px;
+}
+
+
+ /*ACA TERMINA FAVORITOS*/
+
+
+/*ACA COMIENZA EL DETALLE PELICULA*/
+
+.titulo-sw h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+} 
+
+.swars img {
+     height: 350px;
+     width: auto;
+     display: flex;
+     margin-right: 15px;
+ }
+
+
+ .depe {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+
+  .detalle-pelicula h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 20px;
+    justify-content: space-around;
+  }
+
+  .depe p {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: left;
+    font-size: 20px;
+  }
+
+
+ 
+/*ACA TERMINA EL DETALLE PELICULA*/
+
+
+/*ACA COMIENZA EL DETALLE SERIE*/
+
+.titulo-bbad h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+
+.bbad img {
+    height: 350px;
+    width: auto;
+    display: flex;
+    margin-right: 15px;
+}
+
+.dese {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detalle-serie h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.dese p {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+
+.TituloBB {
+    text-align: center;
+}
+
+
+.Breakingbad {
+    padding-top: 10px;
+    align-items: center;
     text-align: center;
 }
 
@@ -392,6 +544,11 @@ footer h1 {
     font-size: 30px;
     text-decoration: underline;
 }
+
+
+
+
+
 
 .TituloSeries {
     font-size: 30px;
