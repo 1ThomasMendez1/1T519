@@ -384,6 +384,8 @@ footer h1 {
 
 }
 
+
+
 /* ACA COMIENZA LA PAGINA DE DETALLE DE GENEROS */ 
 
 .TerrorTitulo {
@@ -402,7 +404,6 @@ footer h1 {
     text-align: center;
     background-color: red;
     width: 15vw;
-    justify-content: center;
     margin: 0 auto;
     
  
@@ -411,7 +412,6 @@ footer h1 {
 
 .Breakingbad {
     background-color: red;
-    justify-content: center;
     width: 15vw;
     margin: 0 auto;
 }
