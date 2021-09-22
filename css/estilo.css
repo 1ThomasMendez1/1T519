@@ -281,7 +281,148 @@ footer h3 {
     text-align: center;
 }
 
+/* ACA COMIENZA FAVORITOS*/
 
+.favoritos {
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 60px;
+    width: 100%
+}
+
+.favoritos strong {
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: coral;
+    text-decoration: underline;
+    font-size: 30px;
+    border-radius: 3px;
+}
+
+.favoritos img {
+    padding: 5px;
+}
+
+.favoritoslista {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    background: black;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px; 
+}
+
+.favoritoslista li {
+    background: red;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.favoritoslista li h3 {
+    background: red;
+    font-style: italic;
+    border-radius: 2px;
+}
+
+
+ /*ACA TERMINA FAVORITOS*/
+
+
+/*ACA COMIENZA EL DETALLE PELICULA*/
+
+.detalle-p h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    background-color: coral;
+    text-decoration: underline;
+    font-size: 30px;
+    border-radius: 3px;
+
+} 
+
+.swars img {
+     height: 350px;
+     width: auto;
+     display: flex;
+     margin-right: 15px;
+     margin-top: 30px;
+     background: red;
+     padding: 10px;
+     border-radius: 2px;
+ }
+
+ .titulo-sw {
+     display: block;
+ }
+
+
+ .detalle-p {
+     font-family: 'Noto Sans KR', sans-serif;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+
+ }
+ 
+
+  .detalle-pelicula h3 {
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 20px;
+    justify-content: space-around;
+  }
+
+  .detalle-p p {
+    text-align: left;
+    font-size: 20px;
+  }
+
+
+ 
+/*ACA TERMINA EL DETALLE PELICULA*/
+
+
+/*ACA COMIENZA EL DETALLE SERIE*/
+
+.detalle-s h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    background-color: coral;
+    text-decoration: underline;
+    font-size: 30px;
+    border-radius: 3px;
+}
+   
+
+.bbad img {
+    height: 350px;
+    width: auto;
+    display: flex;
+    margin-right: 15px;
+    background: red;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.detalle-s {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.detalle-serie h3 {
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.detalle-s p {
+    text-align: left;
+    font-size: 20px;
+}
+/*ACA TERMINA EL DETALLE SERIE*/
 
 
 
@@ -455,7 +596,26 @@ footer h3 {
           background-color:red;
       }
  
+      /*ACA EMPIEZA MEDIA QUERIES FAVORITOS*/
 
+     .favoritos {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      width: 100vw;
+      height: 100vh;
+    }
+
+     .favoritoslista {
+        display: flex;
+        min-height: 100vh;
+        gap: 10px;
+        justify-content: center;
+        padding: 5px;
+        width: fit-content;
+        flex-wrap: wrap;
+        background-color: rgb(124, 122, 120);
+    }
  
 }
 
