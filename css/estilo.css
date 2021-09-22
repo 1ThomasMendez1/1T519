@@ -397,32 +397,32 @@ footer h3 {
  /* MEDIA QUERIES RESULTADOBUSQUEDA INICIA */
 
 
-.rb  {
+  .rb  {
     font-size: 30px;
- } 
+  } 
 
- .busqueda h1 {
+  .busqueda h1 {
      font-size: 25px;
- }
+  }
 
- .busqueda {
+  .busqueda {
      margin-right: 15px;
- }
+  }
 
- .imagenb {
+  .imagenb {
     width: 80vw;
     height: 50vh;
- }
+  }
 
- .busquedalista  {
+  .busquedalista  {
      font-size: 40px;
      text-decoration: underline;
      gap: 50px;
- }
+  }
   
- .busquedaf {
+  .busquedaf {
      margin-top: 10px;
- }
+  }
 
 
 /* MEDIA QUERIES RESULTADOBUSQUEDA TERMINA */
@@ -457,7 +457,6 @@ footer h3 {
  
 
  
-
 }
 
 
