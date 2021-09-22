@@ -16,53 +16,42 @@
 
     <header class="headerindex">
         <!--En action va el html de busqueda-->
-       <form action="/.html" method="GET">
-           <div class="buscador">
-               <label for="buscador">Buscador:</label>
+       <form action="/busqueda.html" method="GET" class="buscador">
+               <label for="buscador">Buscador</label>
                <input type="text" name="buscador" value="">
                <button type="submit">Buscar</button>
-               
-           </div>
-           
        </form>
        
-    <div class="Logo">
-       <img src="img/logo/cinema-clapperboard.png" alt="Logo">
-    </div>
-
-    <div class="menuh">    
-      <a href="/index.html"> <h1>HOME</h1></a>
-      <a href=""> <h1>GENEROS</h1></a>
-      <a href="/favoritos.html"> <h1>TUS FAVORITOS</h1></a>
-   </div>
-
+       <img src="img/logo/cinema-clapperboard.png" alt="Logo" class="Logo">
+     <nav class="menuh">    
+       <a href="/index.html"> HOME </a>
+       <a href="./generos/generos.html"> GENEROS </a>
+       <a href="./favoritos.html"> TUS FAVORITOS </a>
+    </nav>
    </header>
 
 
     <main class="favoritos">
 
-        <!--Cada article es una película-->
-        <title>Favoritos</title>
-        <section class="fav">
-            <strong>Favoritos</strong>
+        <strong>Favoritos</strong>
 
-          <ul class="favoritoslista">
-
+            <ul class="favoritoslista">
+             
               <li>
-                <h3>Star Wars</h3>
-                <a href="detalle-pelicula.html"><img src="img/peliculas populares/starwars.jpg" alt="Imagen Star Wars"> </a>
-                <button>Quitar de Favoritos</button>
+                 <h3>Star Wars</h3>
+                 <a href="detalle-pelicula.html"> <img src="img/peliculas populares/starwars.jpg" alt="Imagen Star Wars"> </a>
+                 <button>Quitar de Favoritos</button>
              </li>
         
              <li>
                  <h3>Harry Potter</h3>
-                 <a href="detalle-pelicula.html"><img src="img/favoritos/harrypotter.jpg" alt="Imagen Harry Potter"> </a>
+                 <a href="detalle-pelicula.html"><img src="img/favoritos/harrypotter-2.jpg" alt="Imagen Harry Potter"> </a>
                  <button>Quitar de Favoritos</button>
              </li>
           
              <li>
-                 <h3>Merli</h3>
-                 <a href="detalle-serie.html"><img src="img/favoritos/merli.jpg" alt="Imagen Merli"> </a>
+                 <h3>Loki</h3>
+                 <a href="detalle-serie.html"><img src="img/lo mas visto en series/loki.jpg" alt="Imagen Loki"> </a>
                  <button>Quitar de Favoritos</button>
              </li>
             
@@ -73,20 +62,20 @@
              </li>
 
              <li>
-                 <h3>Duro de Matar</h3>
-                 <a href="detalle-pelicula.html"><img src="img/favoritos/durodematar.jpg" alt="Imagen Duro de Matar"> </a>
+                 <h3>March</h3>
+                 <a href="detalle-pelicula.html"><img src="img/lo mas visto en peliculas/march.jpg" alt="Imagen March"> </a>
                  <button>Quitar de Favoritos</button>
              </li>
+           
             </ul>
-    </section>
+        
+
     </main>
 
     <footer>
-        <div>
-            <h1>Thomas mendez</h1>
-            <h1>Bautista San Pedro</h1>
-            <h1>Pipe Varela</h1>
-        </div>
+            <h3>Thomas mendez</h3>
+            <h3>Bautista San Pedro</h3>
+            <h3>Felipe Varela</h3>
     </footer>
 </body>
 </html>
