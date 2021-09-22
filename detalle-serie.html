@@ -14,35 +14,30 @@
 <body>
     <header class="headerindex">
         <!--En action va el html de busqueda-->
-       <form action="/.html" method="GET">
-           <div class="buscador">
-               <label for="buscador">Buscador:</label>
+       <form action="/busqueda.html" method="GET" class="buscador">
+               <label for="buscador">Buscador</label>
                <input type="text" name="buscador" value="">
                <button type="submit">Buscar</button>
-               
-           </div>
-           
        </form>
        
-    <div class="Logo">
-       <img src="img/logo/cinema-clapperboard.png" alt="Logo">
-    </div>
-
-    <div class="menuh">    
-      <a href="/index.html"> <h1>HOME</h1></a>
-      <a href=""> <h1>GENEROS</h1></a>
-      <a href="/favoritos.html"> <h1>TUS FAVORITOS</h1></a>
-   </div>
-
+       <img src="img/logo/cinema-clapperboard.png" alt="Logo" class="Logo">
+     <nav class="menuh">    
+       <a href="/index.html"> HOME </a>
+       <a href="./generos/generos.html"> GENEROS </a>
+       <a href="./favoritos.html"> TUS FAVORITOS </a>
+    </nav>
    </header>
-   <div class="titulo-bbad">  <h1>Breaking Bad</h1> </div>
+
+<main class="detalle-s">
+   <h1>Breaking Bad</h1>
     <section class="dese">
+      
          <div class="bbad"><img src="img/lo mas visto en series/bbad.jpg" alt="Imagen Breaking Bad"></div>
          <article class="detalle-serie">
            <h3>Calificación: 9/10</h3>
            <h3>20 de enero de 2008</h3>
            <h3>5 temporadas</h3>
-           <a href=""> <h3>Suspenso</h3> </a> 
+           <a href="generos/terror.html"> <h3>Suspenso</h3> </a> 
            <button>Agregar a Favoritos</button>
          </article>
 
@@ -56,14 +51,14 @@
       
 
     </section>
+ </main>
 </body>
 
+
 <footer>
-    <div>
-        <h1>Thomas mendez</h1>
-        <h1>Bautista San Pedro</h1>
-        <h1>Pipe Varela</h1>
-    </div>
+    <h3>Thomas mendez</h3>
+    <h3>Bautista San Pedro</h3>
+    <h3>Felipe Varela</h3>
 </footer>
 
 </html>
