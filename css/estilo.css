@@ -207,6 +207,82 @@ footer h3 {
 
 /* ACA TERMINA LA PAGINA RESULTADO DE BUSQUEDA */
 
+/* ACA COMIENZA LA PAGINA DE GENEROS */
+
+
+.GenerosDePeliculasySeries {
+    font-size: 30px;
+    text-decoration: underline;
+
+    
+}
+
+
+
+.PeliySerie { 
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+.GenerosDePeliculas a {
+
+    font-size: 20px ;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: red;
+    text-decoration: none;
+}
+
+.GenerosDeSeries a {
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: red;
+    text-decoration: none;
+
+}
+
+/* ACA COMIENZA LA PAGINA DE DETALLE DE GENEROS */ 
+
+.TerrorTitulo {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.Peliculas {
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.ProdigioPelicula {
+    text-align: center;
+    background-color: red;
+    width: 15vw;
+    margin: 0 auto;
+    
+ 
+}
+
+
+.Breakingbad {
+    background-color: red;
+    width: 15vw;
+    margin: 0 auto;
+}
+
+.TituloBB {
+    text-align: center;
+}
+
+
+.Breakingbad {
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+
 
 
 
@@ -350,6 +426,39 @@ footer h3 {
 
 }
 /* MEDIA QUERIES RESULTADOBUSQUEDA TERMINA */
+
+/* ACA ARRANCA MEDIA DE PIPE */ 
+
+    .TERROR {
+        display: flex;
+        justify-content: center;
+      }
+     
+      
+     
+      .ProdigioPelicula {
+        margin: 0;
+        width: 50vw;
+      }
+     
+      .Breakingbad {
+        margin: 0;
+        width: 50vw;
+        background-color: red;
+      }
+     
+      .TituloBB {
+        background-color: red;
+      }
+     
+      .ProdigioPelicula h3 { 
+          background-color:red;
+      }
+ 
+
+ 
+
+}
 
 
 
