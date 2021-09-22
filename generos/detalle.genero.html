@@ -1,106 +1,71 @@
 <!DOCTYPE html>
-
 <html>
-
-         <head>
-
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
         <meta charset="utf-8">
-        <link rel="stylesheet" href="../css/estilo.css">
-        <title>BestPelis</title>
-        
-        </head>
+        <link rel="stylesheet" href="/css/estilo.css">
+        <title>BestPelis</title>    
+    </head>
 
 
+<!--Aquí comienza el cuerpo de la página-->
 
-        <body>
-
-        <header>
-            <header class="headerindex">
-
-                <form action="/busqueda.html" method="GET">
-                    <div class="buscador">
-                        <label for="buscador">Buscador</label>
-                        <input type="text" name="buscador" value="">
-                        <button type="submit">Buscar</button>                    
-                    </div>
-    
-            <h1 class="rb">Resultado de busqueda</h1> 
-            
-         <div class="Logo">
-            <img src="../img/logo/cinema-clapperboard.png" alt="Logo">
-         </div>
-
-         <div class="menuh">    
-            <a href="../index.html"> <h1>HOME</h1></a>
-            <a href="../generos/generos.html"> <h1>GENEROS</h1></a>
-            <a href="../favoritos.html"> <h1>TUS FAVORITOS</h1></a>
-         </div>
-         
-
+    <body>
+        <header class="headerindex">
+             <!--En action va el html de busqueda-->
+            <form action="/busqueda.html" method="GET" class="buscador">
+                    <label for="buscador">Buscador</label>
+                    <input type="text" name="buscador" value="">
+                    <button type="submit">Buscar</button>
+            </form>
+            <img src="/img/cinema-clapperboard.png" alt="Logo" class="Logo">
+         <nav class="menuh">    
+           <a href="/index.html"> HOME </a>
+           <a href="./generos/generos.html"> GENEROS </a>
+           <a href="./favoritos.html"> TUS FAVORITOS </a>
+         </nav>
         </header>
 
-    <main> 
-    <section class="GenerosTerror"> 
-        
-        
-   <div class="TerrorTitulo"><h2> TERROR</h2> </div> 
-   <div class="TituloPeliculas"><strong> <h3>Peliculas</h3></strong> </div>
-
-   
-   <article class="ProdigioPelicula">
-   
-    <h3>Prodigio</h3> 
-    <img src="../img/lo mas visto en peliculas/prodigio.jpg ">
-  
-   </article>
-   
-   <div class="TituloSeries"><strong> <h3>Series</h3></strong> </div>
     
-     <div class="TituloBB"><h3>Breaking Bad </h3>  </div>   
-    <article class="Breakingbad">
+        <main class="GenerosTerro">
+        
+        <h1 class="TERROR">TERROR</h1>
+        
+      <strong class="PeliySerie">Peliculas</strong>
+
+      <article class="ProdigioPelicula">
+   
+      <h3>Prodigio</h3> 
+      <img src="../img/lo mas visto en peliculas/prodigio.jpg ">
+  
+      </article>
+   
+
+
+     <strong class="PeliySerie">SERIES</strong>
+
+     <article class="Breakingbad">
+    
+     <h3 class="TituloBB">Breaking Bad</h3> 
+
+    
        
-        <img src="../img/lo mas visto en series/bbad.jpg">  
-      
-
-
-
+    <img src="../img/lo mas visto en series/bbad.jpg">  
+    
     </article>
 
     </section>
     </main>
 
-
     <footer>
-        <div>
-            <h1>Thomas mendez</h1>
-            <h1>Bautista San Pedro</h1>
-            <h1>Pipe Varela</h1>
-        </div>
-    </footer>
+        <h3>Thomas mendez</h3>
+        <h3>Bautista San Pedro</h3>
+        <h3>Felipe Varela</h3>
+</footer>
+
 </body>
 </html>
-    
-        
-        
-        
-         
-   
-
-
-
-   
-   
-   
-
-
-  
-        
-    
-    
-    
-</section>
-</main> 
-</body>
+       
