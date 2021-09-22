@@ -13,41 +13,36 @@
 <body>
     <header class="headerindex">
         <!--En action va el html de busqueda-->
-       <form action="/.html" method="GET">
-           <div class="buscador">
-               <label for="buscador">Buscador:</label>
+       <form action="/busqueda.html" method="GET" class="buscador">
+               <label for="buscador">Buscador</label>
                <input type="text" name="buscador" value="">
                <button type="submit">Buscar</button>
-               
-           </div>
-           
        </form>
        
-    <div class="Logo">
-       <img src="img/logo/cinema-clapperboard.png" alt="Logo">
-    </div>
-
-    <div class="menuh">    
-      <a href="/index.html"> <h1>HOME</h1></a>
-      <a href=""> <h1>GENEROS</h1></a>
-      <a href="/favoritos.html"> <h1>TUS FAVORITOS</h1></a>
-   </div>
-
+       <img src="img/logo/cinema-clapperboard.png" alt="Logo" class="Logo">
+     <nav class="menuh">    
+       <a href="/index.html"> HOME </a>
+       <a href="./generos/generos.html"> GENEROS </a>
+       <a href="./favoritos.html"> TUS FAVORITOS </a>
+    </nav>
    </header>
 
-   <div class="titulo-sw"><h1>Star Wars</h1></div>
+<main class="detalle-p">
+   
+    <h1 class="titulo-sw">Star Wars</h1>
 
-    <section class="depe">
-        <div class="swars">
-            <img src="img/peliculas populares/starwars.jpg" alt="Imagen Star Wars">
-        </div>
-        <article class="detalle-pelicula">
+      
+        <div class="swars"> <img src="img/peliculas populares/starwars.jpg" alt="Imagen Star Wars"></div>
+        
+         <article class="detalle-pelicula">
          <h3>Calificación: 9/10</h3>
          <h3>8 de julio de 1999</h3>
          <h3>2 horas 16 minutos</h3>
-         <a href=""> <h3>Ciencia ficción/Acción</h3> </a>
+         <a href="/generos/terror.html"> <h3>Ciencia ficción/Acción</h3> </a>
          <button>Agregar a Favoritos</button>
       </article>
+
+      
       <article>
       <p>
         La trama describe la historia del maestro jedi Qui-Gon Jinn y de su aprendiz Obi-Wan Kenobi,
@@ -55,13 +50,11 @@
         de encontrar una salida pacífica a un conflicto comercial interplanetario a gran escala.
     </p>
   </article>
-    </section>
 </body>
+</main>
 <footer>
-    <div>
-        <h1>Thomas mendez</h1>
-        <h1>Bautista San Pedro</h1>
-        <h1>Pipe Varela</h1>
-    </div>
+    <h3>Thomas mendez</h3>
+    <h3>Bautista San Pedro</h3>
+    <h3>Felipe Varela</h3>
 </footer>
 </html>
