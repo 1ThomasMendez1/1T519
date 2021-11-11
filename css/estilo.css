@@ -329,39 +329,33 @@ footer h3 {
  /*ACA TERMINA FAVORITOS*/
 
 
-/*ACA COMIENZA EL DETALLE PELICULA*/
+ /*ACA COMIENZA EL DETALLE PELICULA*/
 
 .detalle-p h1 {
     font-family: 'Noto Sans KR', sans-serif;
-    text-align: center;
-    background-color: coral;
+    background-color: red;
     text-decoration: underline;
     font-size: 30px;
     border-radius: 3px;
+    justify-content: center;
 
 } 
 
-.swars img {
-     height: 350px;
-     width: auto;
-     display: flex;
-     margin-right: 15px;
-     margin-top: 30px;
-     background: red;
-     padding: 10px;
-     border-radius: 2px;
- }
-
- .titulo-sw {
-     display: block;
+.swars {
+    height: 350px;
+    width: auto;
+    display: flex;
+    margin-right: 15px;
+    background: red;
+    padding: 10px;
+    border-radius: 2px;
  }
 
 
  .detalle-p {
-     font-family: 'Noto Sans KR', sans-serif;
-     display: flex;
-     flex-wrap: wrap;
-     flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Noto Sans KR', sans-serif;
 
  }
  
@@ -387,15 +381,15 @@ footer h3 {
 
 .detalle-s h1 {
     font-family: 'Noto Sans KR', sans-serif;
-    text-align: center;
-    background-color: coral;
+    background-color: red;
     text-decoration: underline;
     font-size: 30px;
     border-radius: 3px;
+    justify-content: center;
 }
    
 
-.bbad img {
+.bbad {
     height: 350px;
     width: auto;
     display: flex;
