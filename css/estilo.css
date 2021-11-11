@@ -302,6 +302,11 @@ footer h3 {
     padding: 5px;
 }
 
+.hp-img {
+    height: 270px;
+    width: 190px;
+}
+
 .favoritoslista {
     display: flex;
     justify-content: space-between;
