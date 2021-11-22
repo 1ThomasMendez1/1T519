@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+    <!--Configuracion de la pagina-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilo.css">
+        <title>BestPelis</title>    
+    </head>
+
+    <!--Aquí comienza el cuerpo de la página-->
+    <body>
+   
+        <!--Header-->
+        <header class="headerindex">
+
+            <!--Buscador-->
+            <form action="busqueda.html" method="GET" class="buscador">
+                    <label for="buscador">Buscador</label>
+                    <input type="text" name="q" value="" class="campo">
+                    <button type="submit">Buscar</button>
+            </form>
+              
+            <!--Alertas del buscador-->
+            <p class="alertadebuscador1">El buscador no puede quedar vacio!</p>
+            <p class="alertadebuscador2">El buscador debe tener al menos 3 caracteres!</p>
+
+            <!--Logo-->
+            <img src="img/logo/cinema-clapperboard.png" alt="Logo" class="Logo">
+
+         <!--Menu-->
+         <nav class="menuh">    
+           <a href="index.html"> HOME </a>
+           <a href="generos.html"> GENEROS </a>
+           <a href="favoritos.html"> TUS FAVORITOS </a>
+         </nav>
+
+        </header>
+
+
+        <main class="index">
+
+            <!--Listado de peliculas populares-->
+            <section class="Peliculas-populares">
+                <strong>Peliculas populares</strong>
+
+                <ul class="indexlistaP">
+                </ul>
+            </section>
+
+            <!--Listado de lo mas visto en peliculas-->
+            <section class="Lo-mas-visto-en-peliculas">
+                <strong>Lo mas visto en peliculas</strong>
+
+                <ul class="indexlistaPP">
+                </ul>
+            </section>
+
+            <!--Listado de lo mas visto en series-->
+            <section class="Lo-mas-visto-en-series">
+                <strong>Lo mas visto en series</strong>
+
+                <ul class="indexlistaS">
+
+                </ul>
+            </section>
+
+        </main>
+
+        <!--Footer-->
+        <footer>
+                <h3>Thomas mendez</h3>
+                <h3>Bautista San Pedro</h3>
+                <h3>Felipe Varela</h3>
+                <img src="img/logo/tmdb.png" alt="" class="tmdbl">
+        </footer>
+
+     <script type="text/javascript" src="js/index.js"></script>
+     
+    </body>
+
+</html>
