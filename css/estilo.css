@@ -27,6 +27,11 @@ footer  {
 footer h3 {
     background-color: chocolate;
 }
+footer .tmdbl {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+}
 
 /* Footer estilo   */ 
 
@@ -114,31 +119,61 @@ footer h3 {
 }
 
 
-.indexlista  {
+.indexlistaP, .indexlistaPP, .indexlistaS  {
     display: flex;
     justify-content: space-between;
     list-style: none;
     text-align: center;
-    background: black;
+    background: red;
     padding-top: 10px;
     padding-right: 40px;
     padding-bottom: 10px;
+    border-radius: 5px;
 }
 
-.indexlista li {
-    background: red;
+.indexlistaP li {
+    background: grey;
+    padding: 10px;
+    margin-inline: 10px;
+    border-radius: 5px;
+}
+
+.indexlistaPP li {
+    background: grey;
     padding: 10px;
     border-radius: 2px;
 }
 
-.indexlista li h1{
-    background: red;
+.indexlistaS li h1 {
+    background: grey;
     font-style: italic;
     border-radius: 2px;
 }
 
-.indexlista h2  {
-    background: red;
+.indexlistaS li {
+    padding: 10px;
+}
+
+.indexlistaPP li h1 {
+    background: grey;
+    font-style: italic;
+    border-radius: 2px;
+}
+
+.indexlistaP li h1{
+    background: grey;
+    font-style: italic;
+    border-radius: 2px;
+}
+
+.indexlistaPP h2 {
+    background-color: grey;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.indexlistaP h2  {
+    background: grey;
     font-size: 15px;
     border-radius: 2px;
 }
@@ -147,6 +182,14 @@ footer h3 {
 /* ACA TERMINA LA PAGINA PRINCIPAL  {} */ 
 
 /* ACA COMIENZA LA PAGINA RESULTADO DE BUSQUEDA */
+
+.indexlistaS h2 {
+    font-size: 15px;
+}
+
+
+
+
 .rb {
     display: flex;
     justify-content: center;
@@ -172,31 +215,8 @@ footer h3 {
 }
 
 
-.busquedalista {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style: none;
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    gap: 25px;
-}
 
-.busquedalista a {
-    width: fit-content;
-    text-decoration: none;
-    color: rgba(0, 0, 255, 0.726);
-    margin-right: 40px;
-}
 
-.busqueda p {
-    font-family: Verdana, Tahoma, sans-serif;
-    display: flex;
-    justify-content: center;
-    font-size: 60px;
-    color: yellow;
-    display: none;
-}
 
 .imagenb {
     background-color: black;
@@ -509,7 +529,7 @@ footer h3 {
         margin-right: 10px;
     }
 
-    .indexlista {
+    .indexlistaP, .indexlistaPP, .indexlistaS {
         display: flex;
         min-height: 100vh;
         gap: 10px;
@@ -619,24 +639,98 @@ footer h3 {
 }
 
 
+/* ACA EMPIEZA JAVASCRIPT */
+
+/* ALERTAS DEL BUSCADOR CUANDO EL USUARIO INGRESA ERRONEAMENTE VALOR */
+ .alertadebuscador1, .alertadebuscador2 {
+     font-size: 20px;
+     text-align: end;
+     margin-right: 5px;
+     visibility: hidden;
+     
+ }
 
 
+/* RESULTADOS DE BUSQUEDA */
+
+/* Titulo de lo que se ingreso en el buscador */
+.tituloDeLoBuscado {
+    height: 35pxs;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+/* La lista de resultados */
+.busquedalistaS li {
+    display: flex;
+    flex-direction: column;
+}
+.busquedalistaP li {
+    display: flex;
+    flex-direction: column;
+}
+.busquedalistaP input {
+margin-left: 150px;
+}
+.busquedalistaS input {
+    margin-left: 150px;
+}
+
+.busquedalistaP, .busquedalistaS {
+    display: flex;
+    list-style-type: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+.relacionadoPeliculas {
+    display: flex;
+    flex-direction: column;
+}
+.seccionserie, .seccionpeli {
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.busquedalistaP li, .busquedalistaS li {
+    margin-inline: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 
+/* Carteles cuando no encuentra */
+.noserie, .nopeli {
+        font-family: Verdana, Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
+        color: yellow;
+        visibility: hidden;
+        height: 1px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Loader */
+.loader {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+.loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+    height: 1px;
+}
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
