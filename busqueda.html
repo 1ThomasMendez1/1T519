@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <!-- Configuracion de la pagina -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilo.css">
+        <title>Resultados de busqueda</title>
+    </head>
+    
+    <!--Loader de busqueda-->
+
+    <div class="loader"> <img src="img/loading.gif" alt=""></div>
+
+    <!--Cuerpo de la pagina-->
+    <body>
+    
+        <!--Header-->
+        <header class="headerindex">
+
+            <!--buscador-->
+            <form action="busqueda.html" method="GET" class="buscador">
+                    <label for="buscador">Buscador</label>
+                    <input type="text" name="q" value="">
+                    <button type="submit">Buscar</button>                    
+            </form>
+            <!--alertas del buscador-->
+            <p class="alertadebuscador1">El buscador no puede quedar vacio!</p>
+            <p class="alertadebuscador2">El buscador debe tener al menos 3 caracteres!</p>
+
+        <!--titulo del resultado de busqueda-->    
+        <h1 class="rb">Resultado de busqueda</h1> 
+
+            <!--logo-->   
+            <img src="img/logo/cinema-clapperboard.png" alt="Logo" class="Logo">
+    
+            <!--menu del header-->
+             <nav class="menuh">    
+               <a href="index.html"> HOME </a>
+               <a href="generos.html"> GENEROS </a>
+               <a href="favoritos.html"> TUS FAVORITOS </a>
+             </nav>
+
+        </header>
+
+
+        <main class="busqueda">
+
+         <section class="relacionadoPeliculas">   
+            
+            <!--Titulo de lo tipeado en el buscador-->
+            <h1 class="tituloDeLoBuscado"> </h1>
+      
+            <!--Seccion donde se muestran las peliculas, junto con el cartel en caso de no encontrar-->
+             <h2 class="seccionpeli">Seccion sobre peliculas</h2>
+             <p class="nopeli">No se encontraron peliculas</p>
+            <ul class="busquedalistaP">
+            </ul>
+        </section>   
+        
+        <!--Seccion donde se muestran las series, junto con el cartel en caso de no encontrar-->
+        <section class="relacionadoSeries">
+            <h2 class="seccionserie">Seccion sobre series</h2>
+            <p class="noserie">No se encontraron series</p>
+            <ul class="busquedalistaS">
+            </ul>
+        </section>
+
+        </main>
+
+        <!--Footer-->
+        <footer class="fbusqueda">
+                <h3>Thomas mendez</h3>
+                <h3>Bautista San Pedro</h3>
+                <h3>Felipe Varela</h3>
+                <img src="img/logo/tmdb.png" alt="" class="tmdbl">
+        </footer>
+        
+     <script type="text/javascript" src="js/resultadoBusqueda.js"></script>
+    </body>
+
+</html>
+
