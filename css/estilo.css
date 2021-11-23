@@ -304,143 +304,309 @@ footer .tmdbl {
 /* ACA COMIENZA FAVORITOS*/
 
 .favoritos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     font-family: 'Noto Sans KR', sans-serif;
-    padding-top: 60px;
-    width: 100%
+    flex-grow: 1;
+    padding: 1rem;
+    transition: all 1s ease;
+    align-items: center;
 }
 
-.favoritos strong {
-    text-align: center;
-    font-family: 'Noto Sans KR', sans-serif;
+.favoritos h1{
     background-color: coral;
-    text-decoration: underline;
-    font-size: 30px;
-    border-radius: 3px;
+    border-radius: 8px;
+    width: fit-content;
+    display: flex;
+    text-decoration: none;
+}
+
+.favoritos h2 {
+        margin-bottom: 40px;
+        font-size: 20px;
+        justify-content: space-around;
+        background-color: red;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        justify-content: center;
+        border-style: none;
+        background-color: coral;
+        border-radius: 8px;
+        padding: 3px;
+        font-size: 25px;
+        width: fit-content;
+     }
+
+     .favoritos h3{
+        text-align: left;
+        margin-bottom: 40px;
+        font-size: 20px;
+        justify-content: space-around;
+        background-color: red;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        justify-content: center;
+        border-style: none;
+        background-color: coral;
+        border-radius: 8px;
+        padding: 3px;
+        width: fit-content;
+     }
+    
+.favoritos section {
+    background-color: red;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 1em;
+    height: fit-content;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 900px;
+}
+
+.favoritos article {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .favoritos img {
-    padding: 5px;
+    width: 200px;
+    border-style: solid;
 }
-
-.hp-img {
-    height: 270px;
-    width: 190px;
-}
-
-.favoritoslista {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    text-align: center;
-    background: black;
-    padding-top: 10px;
-    padding-right: 40px;
-    padding-bottom: 10px; 
-}
-
-.favoritoslista li {
-    background: red;
-    padding: 10px;
-    border-radius: 2px;
-}
-
-.favoritoslista li h3 {
-    background: red;
-    font-style: italic;
-    border-radius: 2px;
-}
-
 
  /*ACA TERMINA FAVORITOS*/
 
 
  /*ACA COMIENZA EL DETALLE PELICULA*/
 
-.detalle-p h1 {
-    font-family: 'Noto Sans KR', sans-serif;
-    background-color: red;
-    text-decoration: underline;
-    font-size: 30px;
-    border-radius: 3px;
-    justify-content: center;
-
-} 
-
-.swars {
-    height: 350px;
-    width: auto;
-    display: flex;
-    margin-right: 15px;
-    background: red;
-    padding: 10px;
-    border-radius: 2px;
- }
-
-
- .detalle-p {
+.detalle-p {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     font-family: 'Noto Sans KR', sans-serif;
+    flex-grow: 1;
+    padding: 1rem;
+    transition: all 1s ease;
+}
 
- }
- 
+.detalle-p h1 {
+    background-color: coral;
+    text-decoration: underline;
+    font-size: 30px;
+    padding: 3px;
+    border-radius: 8px;
+    width: fit-content;
+    display: flex;
+    text-decoration: none;
+} 
 
-  .detalle-pelicula h3 {
-    text-align: left;
-    margin-bottom: 40px;
-    font-size: 20px;
-    justify-content: space-around;
+.detalle-p h3 {
+    border-style: none;
+    background-color: coral;
+    border-radius: 8px;
+    padding: 3px;
+    width: fit-content;
+}
+
+
+  .detalle-pelicula h2 {
+     text-align: left;
+     margin-bottom: 20px;
+     justify-content: space-around;
+     background-color: coral;
+     border-style: none;
+     border-radius: 8px;
+     width: fit-content;
+     padding: 3px;
   }
 
   .detalle-p p {
     text-align: left;
     font-size: 20px;
+    border-style: none;
+    background-color: coral;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 6px;
+    
+  }
+  
+  .detalle-p img {
+      width: 200px;
+      border:groove;
+
   }
 
+  .detalle-p a {
+      background-color: coral;
+      text-decoration: none;
+      color: black;
+  }
+  .detalle-pelicula a{
+      padding: 2px;
+      border-style:none;
+      border-radius: 4px;
+      background-color: tomato;
+      margin-left: 8px;
+  }
 
- 
+ #paraFavoritos {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    background-color: red;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+#paraFavoritos > a {
+    width: calc(50% - 8px);
+    display: flex;
+    flex-direction: unset;
+    background-color: coral;
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 8px;
+
+}
+#paraFavoritos > a span.material-icons {
+    display: unset;
+    padding: 0;
+    background-color: coral;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#volver {
+    text-align: center;
+    cursor: pointer;
+    width: fit-content;
+    background-color: coral;
+}
+#volver > a {
+    background-color: coral;
+    color: black;
+    text-decoration:none;
+}
+#volver:hover {
+    background-color: coral;
+}
+.detalle-pelicula, 
+#volver {
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.detalle-pelicula{
+    background-color: red;
+}
+.detalle-pelicula p {
+    margin: 1em 0;
+}
+
+.detalle-pelicula article:last-of-type:hover {
+    background-color: red;
+}
+
+.detalle-pelicula article:last-of-type:hover a {
+    color: black;
+    font-weight: bold;
+}
+
 /*ACA TERMINA EL DETALLE PELICULA*/
 
 
 /*ACA COMIENZA EL DETALLE SERIE*/
 
-.detalle-s h1 {
-    font-family: 'Noto Sans KR', sans-serif;
-    background-color: red;
-    text-decoration: underline;
-    font-size: 30px;
-    border-radius: 3px;
-    justify-content: center;
-}
-   
-
-.bbad {
-    height: 350px;
-    width: auto;
-    display: flex;
-    margin-right: 15px;
-    background: red;
-    padding: 10px;
-    border-radius: 2px;
-}
-
 .detalle-s {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     font-family: 'Noto Sans KR', sans-serif;
+    flex-grow: 1;
+    padding: 1rem;
+    transition: all 1s ease;
 }
 
-.detalle-serie h3 {
-    text-align: left;
-    margin-bottom: 40px;
-    font-size: 20px;
-    justify-content: space-around;
+.detalle-s h1 {
+    background-color: coral;
+    text-decoration: underline;
+    font-size: 30px;
+    padding: 3px;
+    border-radius: 8px;
+    width: fit-content;
+    display: flex;
+    text-decoration: none;
+} 
+
+.detalle-s h3 {
+    border-style: none;
+    background-color: coral;
+    border-radius: 8px;
+    padding: 3px;
+    width: fit-content;
 }
 
-.detalle-s p {
+
+  .detalle-serie h2 {
+     text-align: left;
+     margin-bottom: 20px;
+     justify-content: space-around;
+     background-color: coral;
+     border-style: none;
+     border-radius: 8px;
+     width: fit-content;
+     padding: 3px;
+  }
+
+  .detalle-s p {
     text-align: left;
     font-size: 20px;
+    border-style: none;
+    background-color: coral;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 6px;
+  }
+.detalle-serie {
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: red;
 }
+
+  
+  .detalle-s img {
+      width: 200px;
+      border:groove;
+  }
+
+  .detalle-s a {
+      background-color: coral;
+      text-decoration: none;
+      color: black;
+  }
+  .detalle-serie a{
+      padding: 2px;
+      border-style:none;
+      border-radius: 4px;
+      background-color: tomato;
+      margin-left: 8px;
+  }
+
 /*ACA TERMINA EL DETALLE SERIE*/
 
 
