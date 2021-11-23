@@ -49,7 +49,7 @@ window.addEventListener('load', function() {
         <li>                        
         <h2>${pelis[i].title}</h2>
         <h2>${pelis[i].release_date}</h2>
-        <a href="detalle-pelicula.html"> <img src="https://image.tmdb.org/t/p/w300/${pelis[i].poster_path}" alt="starwars"> </a>
+        <a href="detalle-pelicula.html?id=${pelis[i].id}"> <img src="https://image.tmdb.org/t/p/w300/${pelis[i].poster_path}" alt="starwars"> </a>
         <input type="checkbox" name="favoritos">                                
         </li>        
         `
@@ -77,7 +77,7 @@ window.addEventListener('load', function() {
         <li>                        
         <h2>${pelisPP[i].title}</h2>
         <h2>${pelisPP[i].release_date}</h2>
-        <a href="detalle-pelicula.html"> <img src="https://image.tmdb.org/t/p/w300/${pelisPP[i].poster_path}" alt="starwars"> </a>
+        <a href="detalle-pelicula.html?id=${pelisPP[i].id}"> <img src="https://image.tmdb.org/t/p/w300/${pelisPP[i].poster_path}" alt="starwars"> </a>
         <input type="checkbox" name="favoritos">                                
         </li>        
         `
@@ -103,7 +103,7 @@ window.addEventListener('load', function() {
         <li>                        
         <h2 class="seriesindex">${pelisS[i].name}</h2>
         <h2>${pelisS[i].first_air_date}</h2>
-        <a href="detalle-pelicula.html"> <img src="https://image.tmdb.org/t/p/w300/${pelisS[i].poster_path}" alt="starwars"> </a>
+        <a href="detalle-serie.html?id=${pelisS[i].id}"> <img src="https://image.tmdb.org/t/p/w300/${pelisS[i].poster_path}" alt="starwars"> </a>
         <input type="checkbox" name="favoritos">                                
         </li>        
         `
