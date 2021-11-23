@@ -1,64 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/estilo.css">
-        <title>BestPelis - Detalle</title>
-        </head>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
+  <!--traigo íconos de Google para los botones de favoritos-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <title>BestPelis - Detalle</title>
+</head>
+
+<!--Aquí comienza el cuerpo de la página-->
 <body>
-    <header class="headerindex">
-        <!--En action va el html de busqueda-->
-       <form action="busqueda.html" method="GET" class="buscador">
-               <label for="buscador">Buscador</label>
-               <input type="text" name="buscador" value="">
-               <button type="submit">Buscar</button>
-       </form>
-       
-       <img src="img/logo/cinema-clapperboard.png" alt="Logo" class="Logo">
-     <nav class="menuh">    
-       <a href="index.html"> HOME </a>
-       <a href="generos.html"> GENEROS </a>
-       <a href="favoritos.html"> TUS FAVORITOS </a>
-    </nav>
-   </header>
+   
+  <!--Header-->
+  <header class="headerindex">
 
-<main class="detalle-p">
+      <!--Buscador-->
+      <form action="busqueda.html" method="GET" class="buscador">
+              <label for="buscador">Buscador</label>
+              <input type="text" name="q" value="" class="campo">
+              <button type="submit">Buscar</button>
+      </form>
+        
+      <!--Alertas del buscador-->
+      <p class="alertadebuscador1">El buscador no puede quedar vacio!</p>
+      <p class="alertadebuscador2">El buscador debe tener al menos 3 caracteres!</p>
 
-    <h1>Star Wars</h1>
+      <!--Logo-->
+      <img src="img/logo/cinema-clapperboard.png" alt="Logo" class="Logo">
 
-    <section class="depe">
+   <!--Menu-->
+   <nav class="menuh">    
+     <a href="index.html"> HOME </a>
+     <a href="generos.html"> GENEROS </a>
+     <a href="favoritos.html"> TUS FAVORITOS </a>
+   </nav>
 
-      <img class="swars" src="img/peliculas populares/starwars.jpg" alt="Imagen Star Wars"></div>
-
-      <article class="detalle-pelicula">
-        <h3>Calificación: 9/10</h3>
-        <h3>8 de julio de 1999</h3>
-        <h3>2 horas 16 minutos</h3>
-        <a href="detalle.genero.html">
-          <h3>Ciencia ficción/Acción</h3>
-        </a>
-        <button>Agregar a Favoritos</button>
-      </article>
+  </header>
 
 
-      <article>
-        <p>
-          La trama describe la historia del maestro jedi Qui-Gon Jinn y de su aprendiz Obi-Wan Kenobi,
-          que escoltan y protegen a la Reina Amidala desde su planeta Naboo hasta Coruscant con la esperanza
-          de encontrar una salida pacífica a un conflicto comercial interplanetario a gran escala.
-        </p>
-      </article>
-    </section>
-</body>
+ <!-- detalle pelicula -->
+ <main class="detalle-p">
+
+  <h1>
+    Best Pelis
+  </h1>
+
+  <!-- pelicula  -->
+  <section class="depe">
+    <!--creo un article donde irá el detalle de la pelicula-->
+    <article class="detalle-pelicula">
+      <!--titulo del la pelicula-->
+      <h2></h2>
+      <h3>Pelicula</h3>
+      <!--portada-->
+      <img src="" alt="">
+
+      <!--detalles-->
+      <p id="calificacion"></p>
+      <p id="duracion"></p>
+      <p id="fecha"></p>
+      <p id="genero"></p>
+      <p id="sinopsis"></p>
+
+    </article>
+
+    <!--segundo article con los botones correspondientes a favoritos-->
+    <article id="paraFavoritos">
+
+      <a href="" title="agregar a playlist" class="fav"> agregar a favoritos
+        <span class="material-icons">favorite_border</span>
+      </a>
+
+      <a href="favoritos.html" title="favoritos"> <span class="material-icons"> favorite_border </span> ver favoritos 
+        <span class="material-icons">favorite_border</span>
+      </a>
+    </article>
+
+    <!--tercer article btn "volver"-->
+    <article id="volver">
+      <a href="index.html">&larr; volver</a>
+    </article>
+
+  </section>
+
+
 </main>
+
+<!--Footer-->
 <footer>
-    <h3>Thomas mendez</h3>
-    <h3>Bautista San Pedro</h3>
-    <h3>Felipe Varela</h3>
+  <h3>Thomas mendez</h3>
+  <h3>Bautista San Pedro</h3>
+  <h3>Felipe Varela</h3>
+  <img src="img/logo/tmdb.png" alt="" class="tmdbl">
 </footer>
+
+  <!--vinculo js al final del body-->
+  <script src="js/detallePelicula.js"></script>
+</body>
+
 </html>
