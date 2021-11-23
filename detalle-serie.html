@@ -7,61 +7,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--traigo íconos de Google para los botones de favoritos-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/estilo.css">
     <title>BestPelis - Detalle</title>
 </head>
 
+<!--Aquí comienza el cuerpo de la página-->
 <body>
-    <header class="headerindex">
-        <!--En action va el html de busqueda-->
-       <form action="busqueda.html" method="GET" class="buscador">
-               <label for="buscador">Buscador</label>
-               <input type="text" name="buscador" value="">
-               <button type="submit">Buscar</button>
-       </form>
-       
-       <img src="img/logo/cinema-clapperboard.png" alt="Logo" class="Logo">
-     <nav class="menuh">    
-       <a href="index.html"> HOME </a>
-       <a href="generos.html"> GENEROS </a>
-       <a href="favoritos.html"> TUS FAVORITOS </a>
-    </nav>
-   </header>
-
-<main class="detalle-s">
    
-  <h1>Breaking Bad</h1>
+  <!--Header-->
+  <header class="headerindex">
+
+      <!--Buscador-->
+      <form action="busqueda.html" method="GET" class="buscador">
+              <label for="buscador">Buscador</label>
+              <input type="text" name="q" value="" class="campo">
+              <button type="submit">Buscar</button>
+      </form>
+        
+      <!--Alertas del buscador-->
+      <p class="alertadebuscador1">El buscador no puede quedar vacio!</p>
+      <p class="alertadebuscador2">El buscador debe tener al menos 3 caracteres!</p>
+
+      <!--Logo-->
+      <img src="img/logo/cinema-clapperboard.png" alt="Logo" class="Logo">
+
+   <!--Menu-->
+   <nav class="menuh">    
+     <a href="index.html"> HOME </a>
+     <a href="generos.html"> GENEROS </a>
+     <a href="favoritos.html"> TUS FAVORITOS </a>
+   </nav>
+
+  </header>
+
+
+   <main class="detalle-s">
+
+    <h1>
+      Best Pelis
+    </h1>
   
-   <section class="dese">
-      
-         <img class="bbad" src="img/lo mas visto en series/bbad.jpg" alt="Imagen Breaking Bad"></div>
-         
-         <article class="detalle-serie">
-           <h3>Calificación: 9/10</h3>
-           <h3>20 de enero de 2008</h3>
-           <h3>5 temporadas</h3>
-           <a href="detalle.genero.html"> <h3>Suspenso</h3> </a> 
-           <button>Agregar a Favoritos</button>
-         </article>
-
-          <article>
-              <p>
-                  Un profesor de química con cáncer terminal se asocia con un exalumno suyo
-                  para fabricar y vender metanfetamina a fin de que su familia no pase apuros económicos.
-               </p>
-               </article>
-      
-      
-
+    <!-- pelicula  -->
+    <section class="dese">
+      <!--creo un article donde irá el detalle de la pelicula-->
+      <article class="detalle-serie">
+        <!--titulo del la pelicula-->
+        <h2>Serie</h2> 
+        
+  
+        <!--portada-->
+        <img src="" alt="">
+  
+        <!--detalles-->
+        <p id="calificacion"></p>
+        <p id="duracion"></p>
+        <p id="fecha"></p>
+        <p id="genero"></p>
+        <p id="sinopsis"></p>
+  
+      </article>
+  
+      <!--segundo article con los botones correspondientes a favoritos-->
+      <article id="paraFavoritos">
+  
+        <a href="" title="agregar a playlist" class="fav">agregar a favoritos
+          <span class="material-icons">favorite_border</span>
+        </a>
+  
+        <a href="favoritos.html" title="favoritos"> <span class="material-icons"> favorite_border </span> ver favoritos 
+          <span class="material-icons">favorite_border</span>
+        </a>
+      </article>
+  
+      <!--tercer article btn "volver"-->
+      <article id="volver">
+        <a href="index.html">&larr; volver</a>
+      </article>
+  
     </section>
- </main>
-</body>
+  
+  
+  </main>
 
-
+<!--Footer-->
 <footer>
-    <h3>Thomas mendez</h3>
-    <h3>Bautista San Pedro</h3>
-    <h3>Felipe Varela</h3>
+  <h3>Thomas mendez</h3>
+  <h3>Bautista San Pedro</h3>
+  <h3>Felipe Varela</h3>
+  <img src="img/logo/tmdb.png" alt="" class="tmdbl">
 </footer>
 
+<!--JS-->
+<script src="js/detalleSeries.js"></script>
+</body>
 </html>
