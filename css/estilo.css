@@ -230,75 +230,81 @@ footer .tmdbl {
 /* ACA COMIENZA LA PAGINA DE GENEROS */
 
 
-.GenerosDePeliculasySeries {
-    font-size: 30px;
+.h1generos {
+    font-size: 20px;
     text-decoration: underline;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.generosParaPeliculas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.generosParaSeries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.generosclase{
+
+    background-color: red;
+    text-align: center;
+    width: 80%;
+    height: 70px;
+    margin: 5px;
+    border-radius: 15px;
+    border: solid 5px black;
 
     
 }
-
-
-
-.PeliySerie { 
+.generosclase a {
+    color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+    background-color: red;
     font-size: 30px;
-    text-decoration: underline;
 }
 
 
-.GenerosDePeliculas a {
 
-    font-size: 20px ;
-    font-family: 'Noto Sans KR', sans-serif;
-    color: red;
-    text-decoration: none;
-}
 
-.GenerosDeSeries a {
+.alertadebuscador1, .alertadebuscador2 {
     font-size: 20px;
-    font-family: 'Noto Sans KR', sans-serif;
-    color: red;
-    text-decoration: none;
-
+    text-align: end;
+    margin-right: 5px;
+    visibility: hidden;
+    
 }
 
 /* ACA COMIENZA LA PAGINA DE DETALLE DE GENEROS */ 
 
-.TerrorTitulo {
-    text-align: center;
+.h1dgenero{
     font-size: 20px;
+    text-decoration: underline;
     font-family: 'Noto Sans KR', sans-serif;
-}
-
-.Peliculas {
-    font-size: 20px;
-    font-family: 'Noto Sans KR', sans-serif;
-
-}
-
-.ProdigioPelicula {
+    color: white;
+    background-color: black;
     text-align: center;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 30px;
+}
+.h3clase {
+    color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
     background-color: red;
-    width: 15vw;
-    margin: 0 auto;
+    font-size: 30px;
+    border: solid 3px black;
+    width: 50%;
     
- 
-}
-
-
-.Breakingbad {
-    background-color: red;
-    width: 15vw;
-    margin: 0 auto;
-}
-
-.TituloBB {
-    text-align: center;
-}
-
-
-.Breakingbad {
-    padding-top: 10px;
-    text-align: center;
 }
 
 /* ACA COMIENZA FAVORITOS*/
