@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,73 +10,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
     <title>BestPelis - Favoritos</title>
-    </head>
+</head>
 
 
+<!--Aquí comienza el cuerpo de la página-->
 <body>
-
+   
+    <!--Header-->
     <header class="headerindex">
-        <!--En action va el html de busqueda-->
-       <form action="busqueda.html" method="GET" class="buscador">
-               <label for="buscador">Buscador</label>
-               <input type="text" name="buscador" value="">
-               <button type="submit">Buscar</button>
-       </form>
-       
-       <img src="img/logo/cinema-clapperboard.png" alt="Logo" class="Logo">
+
+        <!--Buscador-->
+        <form action="busqueda.html" method="GET" class="buscador">
+                <label for="buscador">Buscador</label>
+                <input type="text" name="q" value="" class="campo">
+                <button type="submit">Buscar</button>
+        </form>
+          
+        <!--Alertas del buscador-->
+        <p class="alertadebuscador1">El buscador no puede quedar vacio!</p>
+        <p class="alertadebuscador2">El buscador debe tener al menos 3 caracteres!</p>
+
+        <!--Logo-->
+        <img src="img/logo/cinema-clapperboard.png" alt="Logo" class="Logo">
+
+     <!--Menu-->
      <nav class="menuh">    
        <a href="index.html"> HOME </a>
        <a href="generos.html"> GENEROS </a>
        <a href="favoritos.html"> TUS FAVORITOS </a>
-    </nav>
-   </header>
+     </nav>
+
+    </header>
 
 
+    <!-- info específica de ESTE documento -->
     <main class="favoritos">
 
-        <strong>Favoritos</strong>
-
-            <ul class="favoritoslista">
-             
-              <li>
-                 <h3>Star Wars</h3>
-                 <a href="detalle-pelicula.html"> <img src="img/peliculas populares/starwars.jpg" alt="Imagen Star Wars"> </a>
-                 <button>Quitar de Favoritos</button>
-             </li>
-        
-             <li>
-                 <h3>Harry Potter</h3>
-                 <a href="detalle-pelicula.html"><img class="hp-img" src="img/favoritos/harrypotter.jpg" alt="Imagen Harry Potter"> </a>
-                 <button>Quitar de Favoritos</button>
-             </li>
-          
-             <li>
-                 <h3>Loki</h3>
-                 <a href="detalle-serie.html"><img src="img/lo mas visto en series/loki.jpg" alt="Imagen Loki"> </a>
-                 <button>Quitar de Favoritos</button>
-             </li>
+        <h1>Favoritos</h1>
+        <!--creo una section para la lista de PELICULAS favoritas-->
+        <section id="pelis">
+            <h2>Peliculas</h2>
             
-             <li>
-                 <h3>Breaking Bad</h3>
-                 <a href="detalle-serie.html"><img src="img/lo mas visto en series/bbad.jpg" alt="Imagen Breaking Bad"> </a>
-                 <button>Quitar de Favoritos</button>
-             </li>
 
-             <li>
-                 <h3>March</h3>
-                 <a href="detalle-pelicula.html"><img src="img/lo mas visto en peliculas/march.jpg" alt="Imagen March"> </a>
-                 <button>Quitar de Favoritos</button>
-             </li>
-           
-            </ul>
-        
+        </section>
+
+        <!--hago una section para la lista de SERIES favoritas-->
+      
+        <section id="series">
+            <h2>Series</h2>  
+
+        </section>
+
+        <!--y un article para el boton "volver"-->
+        <article id="volver">
+            <a href="index.html">&larr; volver</a>
+        </article>
 
     </main>
 
-    <footer>
-            <h3>Thomas mendez</h3>
-            <h3>Bautista San Pedro</h3>
-            <h3>Felipe Varela</h3>
-    </footer>
+   <!--Footer-->
+   <footer>
+    <h3>Thomas mendez</h3>
+    <h3>Bautista San Pedro</h3>
+    <h3>Felipe Varela</h3>
+    <img src="img/logo/tmdb.png" alt="" class="tmdbl">
+</footer>
+
+    <!--vinculación a js al final del body-->
+    <script src="js/favorito.js"></script>
 </body>
+
 </html>
