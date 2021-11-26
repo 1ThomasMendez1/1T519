@@ -96,7 +96,7 @@ window.addEventListener('load', function() {
        <li> 
        <h2>${datos.results[i].name}</h2>
        <h2>${datos.results[i].first_air_date}</h2> 
-       <a href="detalle-pelicula.html?id=${data.results[i].id}"> <img src="https://image.tmdb.org/t/p/w300/${datos.results[i].poster_path}" alt="No hay imagen"> </a>
+       <a href="detalle-pelicula.html?id=${datos.results[i].id}"> <img src="https://image.tmdb.org/t/p/w300/${datos.results[i].poster_path}" alt="No hay imagen"> </a>
        <input type="checkbox" name="favoritos">                             
        </li> 
        `
