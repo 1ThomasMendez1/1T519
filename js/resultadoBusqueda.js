@@ -19,22 +19,7 @@ window.addEventListener('load', function() {
  const listaDeResultadosS = document.querySelector('.busquedalistaS')
  const noConcluyePeli = document.querySelector('.nopeli')
  const noConcluyeSerie = document.querySelector('.noserie')
- const campoB = document.querySelector (".campo");
- const mensaje1B = document.querySelector (".alertadebuscador1");
- const mensaje2B = document.querySelector (".alertadebuscador2");
- const alertaBuscadorB = document.querySelector (".buscador");
 
- // Evaluacion del contenido de la caja del buscador
- alertaBuscadorB.addEventListener('submit', function(e) {
-   e.preventDefault()
-   if (campoB.value == "") {
-    mensaje1B.style.visibility = "visible";
-   } else if (campoB < 3) {
-     mensaje2B.style.visibility = "visible";
-   } else {
-    this.submit(`${campoB}`)
-   }
- })
  
   //Fetch de los datos sobre relacionado a peliculas
   fetch( `https://api.themoviedb.org/3/search/movie?api_key=923e730c041add0f009363ab43cb392a&language=en-US&query=${buscado}&page=1&include_adult=false` )
